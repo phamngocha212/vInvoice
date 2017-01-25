@@ -1,0 +1,60 @@
+﻿@charset "utf-8";
+/*********************************************** Reset Style ***********************************************/
+*{margin: 0; padding: 0;}
+body {
+    font-size:15px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#414141;
+	/*background:url(../images/bgBody.gif) repeat-x top left;*/
+}
+
+body, html, div, blockquote, img, label, p,
+h1, h2, h3, h4, h5, h6, pre, ul,  ol, li, dl, dt,
+dd, form, a, fieldset, th, td { 
+	margin: 0; padding: 0; border: 0; outline: none; 
+} 
+input, select {min-height:22px}
+
+ol, ul {list-style: none;}
+p {font-size: 15px;}
+a {text-decoration: none;}
+a img {border: none;}
+img {vertical-align: center;}
+fieldset {border: none;}
+h1, h2, h3, h4, h5, h6 {font-family:Arial, Helvetica, sans-serif;}
+.clear {clear: both;}
+.floatleft {float: left;}
+.floatright {float: right;}
+.aligncenter {text-align: center;}
+* TuoiNT edit view all*/
+.widget-header1{
+    text-transform:uppercase;
+    font-weight:bold;
+    margin:15px 0;
+    border-bottom: 1px solid #ddd;
+    font-size:larger;
+    text-align:center;
+    line-height:25px;
+}
+.fieldset-label1{
+    min-width:80px;
+    margin-right: 0px;
+    float:left;
+}
+.field, .bin-list{
+	margin:0;
+	}
+.field li, .bin-list li{
+	padding:5px 0;
+	list-style:none;
+	}
+.field li label{
+	float:left;
+	width:100px;
+	text-align:left;
+	margin-left:80px;
+	}
+.field li .fieldtext{
+	margin-left:190px;
+	}
+/**/

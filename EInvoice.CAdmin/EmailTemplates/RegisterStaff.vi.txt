@@ -1,0 +1,9 @@
+﻿[subject]
+ Thông tin tài khoản $subject
+[/subject]
+[body]
+<p>Bạn đã đăng ký tài khoản sau đây là thông tin đăng nhập:</p> 
+<p>Username (Tên đăng nhập): $username</p>
+<p>Password (Mật khẩu): $password</p>
+Trân trọng!
+[/body]

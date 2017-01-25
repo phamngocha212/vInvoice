@@ -1,0 +1,10 @@
+﻿[subject]
+$site 
+[/subject]
+[body]
+Kính gửi Quý khách hàng,
+$company xin trân trọng cảm ơn Quý khách hàng đã sử dụng dịch vụ của chúng tôi.
+$company vừa phát hành hóa đơn điện tử tháng $InvMonth, mẫu số $pattern, ký hiệu $serial, số hóa đơn $invNumber đến Quý khách $NameCustomer, Mã số thuế $CusTaxCode, Mã KH $CusCode.
+-  Để có thể xem và kiểm tra hóa đơn gốc, vui lòng truy cập vào ('$portalLink').
+Trân trọng ./.
+[/body]

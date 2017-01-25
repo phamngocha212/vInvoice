@@ -1,0 +1,33 @@
+﻿[subject]
+$site- Contact - $subject
+[/subject]
+[body]
+<table cellspacing="0" cellpadding="0">
+	<tbody>
+		<tr>
+			<td>Full Name:</td>
+			<td>
+				$name
+			</td>
+		</tr>
+		<tr>
+			<td>Email:</td>
+			<td>
+				$email
+			</td>
+		</tr>
+		<tr>
+			<td>Phone:</td>
+			<td>
+				$tel
+			</td>
+		</tr>
+		<tr>
+			<td>Content:</td>
+			<td>
+				<div>$body</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+[/body]

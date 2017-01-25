@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<THSDHD>
+  <Quy>Quý II</Quy>
+  <Nam>2013</Nam>
+  <CongTy>Trung tâm Điện toán truyền số liệu khu vực 1</CongTy>
+  <MSThue>0100691544-001</MSThue>
+  <DiaChi>Lô 2A LÀNG QUỐC TẾ THĂNG LONG - CẦU GIẤY - HÀ NỘI</DiaChi>
+  <Items>
+    <Item>
+      <LoaiHD>Hóa đơn giá trị gia tăng</LoaiHD>
+      <Mau>01GTKT2/001</Mau>
+      <KyHieu>AA/15E</KyHieu>
+      <Ton_PS>
+        <Tong>1000</Tong>
+        <Ton TuSo="" DenSo="" />
+        <PS TuSo="1" DenSo="1000" />
+      </Ton_PS>
+      <DaDung>
+        <Tong TuSo="1" DenSo="26" Tong="26" />
+        <ChiTiet>
+          <SuDung>26</SuDung>
+          <Xoa SoLuong="0" So="" />
+          <Mat SoLuong="0" So="" />
+          <Huy SoLuong="0" So="" />
+        </ChiTiet>
+      </DaDung>
+      <TonCuoiKy TuSo="27" DenSo="1000" Tong="974" />
+    </Item>
+    <Item>
+      <LoaiHD>Hóa đơn giá trị gia tăng</LoaiHD>
+      <Mau>01GTKT2/001</Mau>
+      <KyHieu>AT/13E</KyHieu>
+      <Ton_PS>
+        <Tong>10000</Tong>
+        <Ton TuSo="" DenSo="" />
+        <PS TuSo="1" DenSo="10000" />
+      </Ton_PS>
+      <DaDung>
+        <Tong TuSo="1" DenSo="2" Tong="2" />
+        <ChiTiet>
+          <SuDung>2</SuDung>
+          <Xoa SoLuong="0" So="" />
+          <Mat SoLuong="0" So="" />
+          <Huy SoLuong="0" So="" />
+        </ChiTiet>
+      </DaDung>
+      <TonCuoiKy TuSo="3" DenSo="10000" Tong="9998" />
+    </Item>
+  </Items>
+  <Ngay Ngay="24" Thang="4" Nam="2013" />
+</THSDHD>

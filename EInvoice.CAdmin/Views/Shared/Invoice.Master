@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="MediaCenter, Template, eCommerce">
+    <meta name="robots" content="all">
+    <title>
+        <asp:ContentPlaceHolder ID="TitleContent" runat="server" />
+    </title>
+    <link rel="stylesheet" href="/Content/css/bootstrap.min.css">
+
+    <!-- Customizable CSS -->
+    <link rel="stylesheet" href="/Content/css/main.css">
+    <link rel="stylesheet" href="/Content/css/green.css">    
+    <!-- Fonts -->
+
+    <!-- Icons/Glyphs -->
+    <link rel="stylesheet" href="/Content/css/font-awesome.min.css">
+    <link href="/Content/css/alertify.core.css" rel="stylesheet" />    
+    <link href="/Content/css/jquery-ui.min.css" rel="stylesheet" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/Content/favicon.ico">
+    <script src="/Content/js/jquery.min.js"></script>
+    <script src="/Content/js/jquery-ui.min.js"></script>    
+    <script type="text/javascript" src="/Content/js/jquery.blockUI.js"></script>
+    <script src="/Content/js/jquery.bpopup.min.js"></script>    
+    <script src="/Content/js/alertify.min.js"></script>
+    <script src="/Content/js/FXUtils.js"></script>    
+    <script src="/Content/js/jquery.PrintArea.js"></script>
+    <!-- HTML5 elements and media queries Support for IE8 : HTML5 shim and Respond.js -->
+    <!--[if lt IE 9]>
+			<script src="/Content/js/html5shiv.js"></script>
+			<script src="/Content/js/respond.min.js"></script>
+		<![endif]-->
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="top-bar animate-dropdown" style="position:fixed;background-color:#c90000">
+            <div class="container">
+                <div class="col-xs-12 col-sm-6 no-margin">
+                    <%Html.RenderAction("MenuByComp", "Company", new { viewname = "MenuTop" }); %>
+                </div>
+                <ul class="right" style="float: right">
+                    <%if (HttpContext.Current.User.Identity.IsAuthenticated)
+                      {%>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:#032580"><%=HttpContext.Current.User.Identity.Name%></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/Account/Logout" style="color:#032580">Đăng xuất</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/Account/Changepassword" style="color:#032580">Đổi mật khẩu</a></li>
+                        </ul>
+                    </li>
+                    <%}%>
+                </ul>
+            </div>
+        </nav>
+        <header style="margin-top:45px">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                </asp:ContentPlaceHolder>
+        </header>        
+    </div>
+    <%Html.RenderPartial("Messages", ViewData["Messages"]); %>    
+    <script src="/Content/js/bootstrap.min.js"></script>
+    <script src="/Content/js/bootstrap-hover-dropdown.min.js"></script>    
+</body>
+</html>

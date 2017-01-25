@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Accept_dec" xml:space="preserve">
+    <value>Chấp nhận quyết định</value>
+  </data>
+  <data name="Accept_pub" xml:space="preserve">
+    <value>Chấp nhận thông báo phát hành</value>
+  </data>
+  <data name="Add_cancel" xml:space="preserve">
+    <value>Thêm thông báo hủy</value>
+  </data>
+  <data name="Add_cate" xml:space="preserve">
+    <value>Thêm loại hóa đơn</value>
+  </data>
+  <data name="Add_Cer" xml:space="preserve">
+    <value>Thêm thông tin chứng thư</value>
+  </data>
+  <data name="Add_com" xml:space="preserve">
+    <value>Thêm thông tin đơn vị</value>
+  </data>
+  <data name="Add_cus" xml:space="preserve">
+    <value>Thêm khách hàng</value>
+  </data>
+  <data name="Add_dec" xml:space="preserve">
+    <value>Thêm quyết định</value>
+  </data>
+  <data name="Add_payer" xml:space="preserve">
+    <value>Thêm thanh toán </value>
+  </data>
+  <data name="Add_prod" xml:space="preserve">
+    <value>Thêm sản phẩm</value>
+  </data>
+  <data name="Add_pub" xml:space="preserve">
+    <value>Thêm thông báo phát hành</value>
+  </data>
+  <data name="Add_Staff" xml:space="preserve">
+    <value>Thêm nhân sự</value>
+  </data>
+  <data name="Add_tax" xml:space="preserve">
+    <value>Thêm cơ quan thuế</value>
+  </data>
+  <data name="Add_tem" xml:space="preserve">
+    <value>Thêm mẫu </value>
+  </data>
+  <data name="Add_uptem" xml:space="preserve">
+    <value>Thêm mẫu hóa đơn</value>
+  </data>
+  <data name="Add_user" xml:space="preserve">
+    <value>Thêm tài khoản</value>
+  </data>
+  <data name="Create_ajst" xml:space="preserve">
+    <value>Tạo hóa đơn chỉnh sửa, thay thế</value>
+  </data>
+  <data name="Create_inv" xml:space="preserve">
+    <value>Tạo hóa đơn</value>
+  </data>
+  <data name="Create_reg" xml:space="preserve">
+    <value>Tạo đăng ký mẫu</value>
+  </data>
+  <data name="Create_store" xml:space="preserve">
+    <value>Tạo cấu hình đơn vị</value>
+  </data>
+  <data name="Del_cate" xml:space="preserve">
+    <value>Xóa loại hóa đơn</value>
+  </data>
+  <data name="Del_Cer" xml:space="preserve">
+    <value>Xóa thông tin chứng thư</value>
+  </data>
+  <data name="Del_cus" xml:space="preserve">
+    <value>Xóa khách hàng</value>
+  </data>
+  <data name="Del_dec" xml:space="preserve">
+    <value>Xóa quyết định</value>
+  </data>
+  <data name="Del_inv" xml:space="preserve">
+    <value>Xóa hóa đơn</value>
+  </data>
+  <data name="Del_prod" xml:space="preserve">
+    <value>Xóa sản phẩm</value>
+  </data>
+  <data name="Del_pub" xml:space="preserve">
+    <value>Xóa thông báo phát hành</value>
+  </data>
+  <data name="Del_reg" xml:space="preserve">
+    <value>Xóa đăng ký mẫu </value>
+  </data>
+  <data name="Del_Staff" xml:space="preserve">
+    <value>Xóa nhân sự</value>
+  </data>
+  <data name="Del_tax" xml:space="preserve">
+    <value>Xóa cơ quan thuế</value>
+  </data>
+  <data name="Del_tem" xml:space="preserve">
+    <value>Xóa mẫu </value>
+  </data>
+  <data name="Del_uptem" xml:space="preserve">
+    <value>Xóa mẫu hóa đơn</value>
+  </data>
+  <data name="Del_user" xml:space="preserve">
+    <value>Xóa tài khoản</value>
+  </data>
+  <data name="Detail_dec" xml:space="preserve">
+    <value>Chi tiết quyết định phát hành</value>
+  </data>
+  <data name="Detail_pub" xml:space="preserve">
+    <value>Chi tiết thông báo phát hành</value>
+  </data>
+  <data name="Downloadpdf" xml:space="preserve">
+    <value>Tải pdf</value>
+  </data>
+  <data name="DownloadQuickreportPrince" xml:space="preserve">
+    <value>Tải báo cáo nhanh</value>
+  </data>
+  <data name="DownloadReportLauch" xml:space="preserve">
+    <value>Tải báo cáo chi tiết</value>
+  </data>
+  <data name="Edit_ajst" xml:space="preserve">
+    <value>Tìm kiếm hóa đơn chỉnh sửa, thay thế</value>
+  </data>
+  <data name="Edit_cate" xml:space="preserve">
+    <value>Sửa loại hóa đơn</value>
+  </data>
+  <data name="Edit_com" xml:space="preserve">
+    <value>Sửa thông tin đơn vị phát hành</value>
+  </data>
+  <data name="Edit_cus" xml:space="preserve">
+    <value>Sửa thông tin khách hàng</value>
+  </data>
+  <data name="Edit_dec" xml:space="preserve">
+    <value>Sửa quyết định</value>
+  </data>
+  <data name="Edit_inv" xml:space="preserve">
+    <value>Sửa hóa đơn</value>
+  </data>
+  <data name="Edit_prod" xml:space="preserve">
+    <value>Sửa thông tin sản phẩm</value>
+  </data>
+  <data name="Edit_pub" xml:space="preserve">
+    <value>Sửa thông báo phát hành</value>
+  </data>
+  <data name="Edit_reg" xml:space="preserve">
+    <value>Sửa đăng ký mẫu </value>
+  </data>
+  <data name="Edit_Staff" xml:space="preserve">
+    <value>Sửa nhân sự</value>
+  </data>
+  <data name="Edit_store" xml:space="preserve">
+    <value>Sửa cấu hình đơn vị</value>
+  </data>
+  <data name="Edit_tax" xml:space="preserve">
+    <value>Sửa thông tin cơ quan thuế</value>
+  </data>
+  <data name="Edit_tem" xml:space="preserve">
+    <value>Sửa mẫu </value>
+  </data>
+  <data name="Edit_uptem" xml:space="preserve">
+    <value>Sửa mẫu hóa đơn</value>
+  </data>
+  <data name="Edit_user" xml:space="preserve">
+    <value>Sửa tài khoản</value>
+  </data>
+  <data name="Import_Cus" xml:space="preserve">
+    <value>Import khách hàng</value>
+  </data>
+  <data name="Import_VAT" xml:space="preserve">
+    <value>Import hóa đơn</value>
+  </data>
+  <data name="LstView_cate" xml:space="preserve">
+    <value>Hiển thị danh sách loại hóa đơn</value>
+  </data>
+  <data name="Print_cancel" xml:space="preserve">
+    <value>In thông báo hủy</value>
+  </data>
+  <data name="Print_dec" xml:space="preserve">
+    <value>In quyết định</value>
+  </data>
+  <data name="Print_pub" xml:space="preserve">
+    <value>In thông báo phát hành</value>
+  </data>
+  <data name="Quickreport" xml:space="preserve">
+    <value>Tìm kiếm báo cáo nhanh</value>
+  </data>
+  <data name="QuickreportPrince" xml:space="preserve">
+    <value>Hiển thị báo báo nhanh</value>
+  </data>
+  <data name="Release_invInList" xml:space="preserve">
+    <value>Phát hành chọn danh sách hóa đơn</value>
+  </data>
+  <data name="Release_invInTime" xml:space="preserve">
+    <value>Phát hành theo lô</value>
+  </data>
+  <data name="ReportLauch" xml:space="preserve">
+    <value>Tìm kiếm báo cáo chi tiết</value>
+  </data>
+  <data name="ReportLauchPrint" xml:space="preserve">
+    <value>Hiển thị tìm kiếm báo cáo chi tiết</value>
+  </data>
+  <data name="Save_Convert" xml:space="preserve">
+    <value>Chuyển đổi lưu trữ</value>
+  </data>
+  <data name="Search_cancel" xml:space="preserve">
+    <value>Tìm kiếm thông báo hủy</value>
+  </data>
+  <data name="Search_cus" xml:space="preserve">
+    <value>Tìm kiếm khách hàng</value>
+  </data>
+  <data name="Search_dec" xml:space="preserve">
+    <value>Tìm kiếm quyết định</value>
+  </data>
+  <data name="Search_inv" xml:space="preserve">
+    <value>Tìm kiếm hóa đơn</value>
+  </data>
+  <data name="Search_prod" xml:space="preserve">
+    <value>Tìm kiếm sản phẩm</value>
+  </data>
+  <data name="Search_pub" xml:space="preserve">
+    <value>Tìm kiếm thông báo phát hành</value>
+  </data>
+  <data name="Search_reg" xml:space="preserve">
+    <value>Tìm kiếm đăng ký mẫu</value>
+  </data>
+  <data name="Search_tax" xml:space="preserve">
+    <value>Tìm kiếm cơ quan thuế</value>
+  </data>
+  <data name="Search_tem" xml:space="preserve">
+    <value>Tìm kiếm mẫu </value>
+  </data>
+  <data name="Search_user" xml:space="preserve">
+    <value>Tìm kiếm tài khoản</value>
+  </data>
+  <data name="Source_Convert" xml:space="preserve">
+    <value>Chuyển đổi chứng minh nguồn gốc</value>
+  </data>
+  <data name="View_cancel" xml:space="preserve">
+    <value>Hiển thị thông báo hủy</value>
+  </data>
+  <data name="View_Cer" xml:space="preserve">
+    <value>Hiển thị thông tin chứng thư</value>
+  </data>
+  <data name="View_Cert" xml:space="preserve">
+    <value>Hiển thị thông tin chứng thư</value>
+  </data>
+  <data name="View_com" xml:space="preserve">
+    <value>Hiển thị thông tin đơn vị phát hành</value>
+  </data>
+  <data name="View_Convert" xml:space="preserve">
+    <value>Hiển thị hóa đơn chuyển đổi</value>
+  </data>
+  <data name="view_CusSignStatus" xml:space="preserve">
+    <value>hiển thị trạng thái ký khách hàng</value>
+  </data>
+  <data name="View_home" xml:space="preserve">
+    <value>Hiển thị trang chính</value>
+  </data>
+  <data name="View_inv" xml:space="preserve">
+    <value>Hiển thị hóa đơn</value>
+  </data>
+  <data name="View_payer" xml:space="preserve">
+    <value>Hiển thị thanh toán</value>
+  </data>
+  <data name="View_reg" xml:space="preserve">
+    <value>Hiển thị mẫu </value>
+  </data>
+  <data name="View_report" xml:space="preserve">
+    <value>Hiển thị báo cáo</value>
+  </data>
+  <data name="View_Staff" xml:space="preserve">
+    <value>Hiển thị thông tin nhân sự</value>
+  </data>
+  <data name="View_store" xml:space="preserve">
+    <value>Hiển thị cấu hình đơn vị</value>
+  </data>
+  <data name="View_tem" xml:space="preserve">
+    <value>Hiển thị mẫu </value>
+  </data>
+  <data name="View_uptem" xml:space="preserve">
+    <value>Hiển thị mẫu hóa đơn</value>
+  </data>
+  <data name="Add_store" xml:space="preserve">
+    <value>Thêm thông tin keystore</value>
+  </data>
+  <data name="Del_Cert" xml:space="preserve">
+    <value>Xóa chứng thư</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>Báo cáo tình hình sử dụng hóa đơn</value>
+  </data>
+</root>

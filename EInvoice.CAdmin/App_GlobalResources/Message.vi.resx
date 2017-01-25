@@ -1,0 +1,754 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdjInvSuccess" xml:space="preserve">
+    <value>Điều chỉnh thành công.</value>
+  </data>
+  <data name="AdjReInv_Madjust" xml:space="preserve">
+    <value>Hóa đơn điều chỉnh.</value>
+  </data>
+  <data name="AdjReInv_MAdjustSuccess" xml:space="preserve">
+    <value>Sửa hóa đơn thành công.</value>
+  </data>
+  <data name="AdjReInv_MAdjustUnsuccess" xml:space="preserve">
+    <value>Sửa hóa đơn không thành công.</value>
+  </data>
+  <data name="AdjReInv_MesAllLsts" xml:space="preserve">
+    <value>Các dãy hóa đơn đã hết.</value>
+  </data>
+  <data name="AdjReInv_MesLst" xml:space="preserve">
+    <value>Dãy hóa đơn đã hết.</value>
+  </data>
+  <data name="AdjReInv_MesNoRTemp" xml:space="preserve">
+    <value>Chưa đăng ký mẫu hóa đơn.</value>
+  </data>
+  <data name="AdjReInv_MInvalidInv" xml:space="preserve">
+    <value>Không đúng hóa đơn thay thế.</value>
+  </data>
+  <data name="AdjReInv_MNoneCer" xml:space="preserve">
+    <value>Không có thiết bị ký , ký không thành công.</value>
+  </data>
+  <data name="AdjReInv_MReFor" xml:space="preserve">
+    <value>Hóa đơn thay thế hóa đơn số </value>
+  </data>
+  <data name="AdjReInv_Mreplace" xml:space="preserve">
+    <value>Hóa đơn thay thế.</value>
+  </data>
+  <data name="AdjReInv_MReplaceFor" xml:space="preserve">
+    <value>Hóa đơn này thay thế hóa đơn số:</value>
+  </data>
+  <data name="AdjReInv_MReplaceSuccess" xml:space="preserve">
+    <value>Thay thế hóa đơn thành công.</value>
+  </data>
+  <data name="AdjReInv_MSendMail" xml:space="preserve">
+    <value>(send mail) Thông báo phát hành hóa đơn điện tử.</value>
+  </data>
+  <data name="AdjReInv_MVerifyCer" xml:space="preserve">
+    <value>Verify chữ kí lỗi! (Kiểm tra chứng thư kí?).</value>
+  </data>
+  <data name="Cat_DMesSuccess" xml:space="preserve">
+    <value>Xóa thông tin loại hóa đơn thành công.</value>
+  </data>
+  <data name="Cat_DMesUnsuccess" xml:space="preserve">
+    <value>Xóa thông tin loại hóa đơn không thành công.</value>
+  </data>
+  <data name="Cat_IMesSuccess" xml:space="preserve">
+    <value>Tạo thông tin loại hóa đơn thành công.</value>
+  </data>
+  <data name="Cat_IMesUnsuccess" xml:space="preserve">
+    <value>Tạo thông tin loại hóa đơn không thành công.</value>
+  </data>
+  <data name="Cat_UMesSuccess" xml:space="preserve">
+    <value>Sửa thông tin loại hóa đơn thành công.</value>
+  </data>
+  <data name="Cat_UMesUnsuccess" xml:space="preserve">
+    <value>Sửa thông tin loại hóa đơn không thành công.</value>
+  </data>
+  <data name="Cer_DMesCantDel" xml:space="preserve">
+    <value>Bạn không thể xóa chứng thư này.</value>
+  </data>
+  <data name="Cer_DMesSuccess" xml:space="preserve">
+    <value>Xóa thông tin chứng thư thành công</value>
+  </data>
+  <data name="Com_UMesInfSuccess" xml:space="preserve">
+    <value>Sửa thông tin công ty phát hành hóa đơn thành công.</value>
+  </data>
+  <data name="Cus_DMesSuccess" xml:space="preserve">
+    <value>Xóa thông tin khách hàng thành công.</value>
+  </data>
+  <data name="Cus_IMesCantCreatUser" xml:space="preserve">
+    <value>Không tạo được tài khoản.</value>
+  </data>
+  <data name="Cus_IMesDupCode" xml:space="preserve">
+    <value>Mã khách hàng đã có trong hệ thống.</value>
+  </data>
+  <data name="Cus_IMesDupUsername" xml:space="preserve">
+    <value>Tài khoản đã được sử dụng.</value>
+  </data>
+  <data name="Cus_IMesSelectCreate" xml:space="preserve">
+    <value>Bạn chưa chọn chức năng tạo tài khoản người dùng.</value>
+  </data>
+  <data name="Cus_IMesSuccess" xml:space="preserve">
+    <value>Tạo thông tin khách hàng thành công.</value>
+  </data>
+  <data name="Cus_UMesSuccess" xml:space="preserve">
+    <value>Sửa thông tin khách hàng thành công.</value>
+  </data>
+  <data name="Conv_IMesSuccess" xml:space="preserve">
+    <value>Thực hiện chuyển đổi thành công.</value>
+  </data>
+  <data name="Conv_MesCSrc" xml:space="preserve">
+    <value>HÓA ĐƠN CHUYỂN ĐỔI TỪ HÓA ĐƠN ĐIỆN TỬ ĐỂ CHỨNG MINH NGUỒN GỐC XUẤT XỨ HÀNG HÓA</value>
+  </data>
+  <data name="Conv_MesCStore" xml:space="preserve">
+    <value>HÓA ĐƠN CHUYỂN ĐỔI TỪ HÓA ĐƠN ĐIỆN TỬ ĐỂ LƯU TRỮ</value>
+  </data>
+  <data name="Conv_MesInvConverted" xml:space="preserve">
+    <value>Hóa đơn đã được chuyển đổi.</value>
+  </data>
+  <data name="Conv_MUnsuccess" xml:space="preserve">
+    <value>Thực hiện chuyển đổi không thành công.</value>
+  </data>
+  <data name="Dec_DMesCantDel" xml:space="preserve">
+    <value>Không xóa được quyết định phát hành hóa đơn này.</value>
+  </data>
+  <data name="Dec_DMesSuccess" xml:space="preserve">
+    <value>Xóa quyết định phát hành hóa đơn thành công.</value>
+  </data>
+  <data name="Dec_DMesUnsuccess" xml:space="preserve">
+    <value>Xóa quyết định phát hành hóa đơn không thành công.</value>
+  </data>
+  <data name="Dec_IMesSuccess" xml:space="preserve">
+    <value>Tạo quyết định phát hành hóa đơn thành công.</value>
+  </data>
+  <data name="Dec_IMesUnsuccess" xml:space="preserve">
+    <value>Tạo quyết định phát hành hóa đơn không thành công.</value>
+  </data>
+  <data name="Dec_UMesSuccess" xml:space="preserve">
+    <value>Sửa quyết định phát hành hóa đơn thành công.</value>
+  </data>
+  <data name="Dec_UMesUnsuccess" xml:space="preserve">
+    <value>Sửa quyết định phát hành hóa đơn không thành công.</value>
+  </data>
+  <data name="Key_SMesNonexist" xml:space="preserve">
+    <value>Không tồn tại chứng thư này.</value>
+  </data>
+  <data name="Key_UMesSuccess" xml:space="preserve">
+    <value>Cập nhật thông tin Keystore thành công.</value>
+  </data>
+  <data name="MDaySend" xml:space="preserve">
+    <value>, gửi ngày </value>
+  </data>
+  <data name="MDaySend1" xml:space="preserve">
+    <value>, gửi ngày </value>
+  </data>
+  <data name="MInvCode" xml:space="preserve">
+    <value>, kí hiệu: </value>
+  </data>
+  <data name="MInvCreateDate" xml:space="preserve">
+    <value>Ngày tạo hóa đơn</value>
+  </data>
+  <data name="MInvCusName" xml:space="preserve">
+    <value>Tên khách hàng</value>
+  </data>
+  <data name="MInvNo" xml:space="preserve">
+    <value>Số hóa đơn</value>
+  </data>
+  <data name="Minvoice" xml:space="preserve">
+    <value>Hóa đơn </value>
+  </data>
+  <data name="MInvPattern" xml:space="preserve">
+    <value>Mẫu số</value>
+  </data>
+  <data name="MInvPublishDate" xml:space="preserve">
+    <value>Ngày xuất</value>
+  </data>
+  <data name="MInvSerial" xml:space="preserve">
+    <value>Kí hiệu</value>
+  </data>
+  <data name="MInvStaffCreate" xml:space="preserve">
+    <value>Người tạo hóa đơn</value>
+  </data>
+  <data name="MInvStaffPublish" xml:space="preserve">
+    <value>Người phát hành</value>
+  </data>
+  <data name="MInvStatus" xml:space="preserve">
+    <value>Trạng thái</value>
+  </data>
+  <data name="MInv_DMesNotAllow" xml:space="preserve">
+    <value>Hóa đơn không được xóa.</value>
+  </data>
+  <data name="MInv_DMesSuccess" xml:space="preserve">
+    <value>Xóa hóa đơn thành công.</value>
+  </data>
+  <data name="MInv_IMesLstProd" xml:space="preserve">
+    <value>Nhập danh sách hàng hóa, dịch vụ.</value>
+  </data>
+  <data name="MInv_IMesMissProd" xml:space="preserve">
+    <value>Không có sản phẩm nào trong bảng danh sách hàng hóa</value>
+  </data>
+  <data name="MInv_IMesSuccess" xml:space="preserve">
+    <value>Tạo hóa đơn thành công.</value>
+  </data>
+  <data name="MInv_MesError" xml:space="preserve">
+    <value>Quá trình phát hành gặp lỗi. Bạn hãy kiểm tra và thực hiện phát hành lại.</value>
+  </data>
+  <data name="MInv_MesNullInv" xml:space="preserve">
+    <value>Không có hóa đơn phát hành.</value>
+  </data>
+  <data name="MInv_SMesNoPubAccess" xml:space="preserve">
+    <value>Chưa có thông báo phát hành được cơ quan thuế chấp nhận.</value>
+  </data>
+  <data name="MInv_SMesRTemp" xml:space="preserve">
+    <value>Đăng ký mẫu hóa đơn trước khi phát hành</value>
+  </data>
+  <data name="MInv_UMesCantEdit" xml:space="preserve">
+    <value>Hóa đơn không được phép sửa.</value>
+  </data>
+  <data name="MInv_UMesRequestProd" xml:space="preserve">
+    <value>Bạn cần nhập lại sản phẩm.</value>
+  </data>
+  <data name="MInv_UMesSuccess" xml:space="preserve">
+    <value>Sửa hóa đơn thành công.</value>
+  </data>
+  <data name="Mmonth" xml:space="preserve">
+    <value>tháng </value>
+  </data>
+  <data name="MNonPubAccess" xml:space="preserve">
+    <value>Chưa thông báo phát hành nào được cơ quan thuế chấp nhận.</value>
+  </data>
+  <data name="MNullInvInLst" xml:space="preserve">
+    <value>Chưa có hóa đơn nào được sử dụng phát hành trong dãy.</value>
+  </data>
+  <data name="MRequestProd" xml:space="preserve">
+    <value>Bạn phải nhập sản phẩm.</value>
+  </data>
+  <data name="MRequestRTemp" xml:space="preserve">
+    <value>Đăng ký mẫu hóa đơn trước khi phát hành.</value>
+  </data>
+  <data name="Mstt" xml:space="preserve">
+    <value>Số thứ tự</value>
+  </data>
+  <data name="Myear" xml:space="preserve">
+    <value>năm </value>
+  </data>
+  <data name="Pay_MesSuccess" xml:space="preserve">
+    <value>Thực hiện lưu thanh toán thành công.</value>
+  </data>
+  <data name="Pay_MesUnsuccess" xml:space="preserve">
+    <value>Thực hiện lưu thanh toán không thành công.</value>
+  </data>
+  <data name="PInv_IMesSuccess" xml:space="preserve">
+    <value>Phát hành thành công.</value>
+    <comment>.</comment>
+  </data>
+  <data name="PInv_MInvNonExits" xml:space="preserve">
+    <value>Không tồn tại hóa đơn.</value>
+  </data>
+  <data name="PInv_MLaunch" xml:space="preserve">
+    <value>Đã có hóa đơn đã phát hành.</value>
+  </data>
+  <data name="PInv_Msuccess" xml:space="preserve">
+    <value>Phát hành thành công.</value>
+  </data>
+  <data name="PLInv_Msuccess" xml:space="preserve">
+    <value>Phát hành thành công.</value>
+  </data>
+  <data name="Prod_DMesSuccess" xml:space="preserve">
+    <value>Xóa thông tin sản phẩm thành công.</value>
+  </data>
+  <data name="Prod_DMesUnsuccess" xml:space="preserve">
+    <value>Xóa thông tin sản phẩm không thành công.</value>
+  </data>
+  <data name="Prod_IMesCodeExits" xml:space="preserve">
+    <value>Mã sản phẩm đã tồn tại trong hệ thống.</value>
+  </data>
+  <data name="Prod_IMesSuccess" xml:space="preserve">
+    <value>Tạo thông tin sản phẩm thành công.</value>
+  </data>
+  <data name="Prod_IMesUnsuccess" xml:space="preserve">
+    <value>Tạo thông tin sản phẩm không thành công.</value>
+  </data>
+  <data name="Prod_UMesSuccess" xml:space="preserve">
+    <value>Sửa thông tin sản phẩm thành công.</value>
+  </data>
+  <data name="Prod_UMesUnsuccess" xml:space="preserve">
+    <value>Sửa thông tin sản phẩm không thành công.</value>
+  </data>
+  <data name="Pub_DMesCantDel" xml:space="preserve">
+    <value>Không thể xóa thông báo phát hành này.</value>
+  </data>
+  <data name="Pub_DMesSuccess" xml:space="preserve">
+    <value>Xóa thông báo phát hành thành công.</value>
+  </data>
+  <data name="Pub_DMesUnsuccess" xml:space="preserve">
+    <value>Xóa thông báo phát hành không thành công.</value>
+  </data>
+  <data name="Pub_IMesSuccess" xml:space="preserve">
+    <value>Tạo thành công thông báo phát hành hóa đơn.</value>
+  </data>
+  <data name="Pub_IMesUnsuccess" xml:space="preserve">
+    <value>Tạo thông báo phát hành hóa đơn không thành công.</value>
+  </data>
+  <data name="Pub_MRegInvoice" xml:space="preserve">
+    <value>Chưa đăng ký hóa đơn phát hành.</value>
+  </data>
+  <data name="Pub_UMesSuccess" xml:space="preserve">
+    <value>Sửa thông báo phát hành thành công.</value>
+  </data>
+  <data name="Pub_UMesUnsuccess" xml:space="preserve">
+    <value>Sửa thông báo phát hành không thành công.</value>
+  </data>
+  <data name="ReCancel_MesCanceled" xml:space="preserve">
+    <value>Hóa đơn này đã bị hủy.</value>
+  </data>
+  <data name="ReCancel_MesSuccess" xml:space="preserve">
+    <value>Hủy thành công giải hóa đơn này.</value>
+  </data>
+  <data name="ReInvCP_Mtitle" xml:space="preserve">
+    <value>BẢNG KÊ TẠO LẬP VÀ PHÁT HÀNH HÓA ĐƠN</value>
+  </data>
+  <data name="ReInvDetail_MesDelInv" xml:space="preserve">
+    <value>hóa đơn xóa bỏ.</value>
+  </data>
+  <data name="ReInvDetail_MesUseInv" xml:space="preserve">
+    <value>Hóa đơn sử dụng.</value>
+  </data>
+  <data name="ReInvDetail_Mtitle" xml:space="preserve">
+    <value>BẢNG KÊ CHI TIẾT HÓA ĐƠN </value>
+  </data>
+  <data name="ReplaceInvSuccess" xml:space="preserve">
+    <value>Thay thế thành công.</value>
+  </data>
+  <data name="Role_DMesSuccess" xml:space="preserve">
+    <value>xóa role không thành công.</value>
+  </data>
+  <data name="Role_DMesUnsuccess" xml:space="preserve">
+    <value>Xóa role không thành công</value>
+  </data>
+  <data name="Role_IMesSuccess" xml:space="preserve">
+    <value>Tạo role thành công.</value>
+  </data>
+  <data name="Role_IMesUnsuccess" xml:space="preserve">
+    <value>Tạo role không thành công.</value>
+  </data>
+  <data name="Role_MMissPer" xml:space="preserve">
+    <value>Bạn chưa chọn permission, Tạo role không thành công.</value>
+  </data>
+  <data name="Role_UMesSuccess" xml:space="preserve">
+    <value>Sửa role thành công.</value>
+  </data>
+  <data name="Role_UMesUnsuccess" xml:space="preserve">
+    <value>Sửa role không thành công.</value>
+  </data>
+  <data name="RTemp_DMesSuccess" xml:space="preserve">
+    <value>Xóa đăng ký mẫu hóa đơn thành công.</value>
+  </data>
+  <data name="RTemp_DMesUnsuccess" xml:space="preserve">
+    <value>Không thể xóa đăng ký này.</value>
+  </data>
+  <data name="RTemp_IMesSuccess" xml:space="preserve">
+    <value>Tạo đăng ký mẫu hóa đơn thành công.</value>
+  </data>
+  <data name="RTemp_UMesSuccess" xml:space="preserve">
+    <value>Sửa đăng ký mẫu hóa đơn thành công.</value>
+  </data>
+  <data name="Staff_DMesSuccess" xml:space="preserve">
+    <value>Xóa thông tin nhân viên thành công.</value>
+  </data>
+  <data name="Staff_DMesUnsuccess" xml:space="preserve">
+    <value>Xóa thông tin nhân viên không thành công.</value>
+  </data>
+  <data name="Staff_IMesCannotCreateUser" xml:space="preserve">
+    <value>Không thể tạo tài khoản người dùng.</value>
+  </data>
+  <data name="Staff_IMesNotHaveUser" xml:space="preserve">
+    <value>Tài khoản người dùng không có trong hệ thống.</value>
+  </data>
+  <data name="Staff_IMesSuccess" xml:space="preserve">
+    <value>Tạo thông tin nhân viên thành công.</value>
+  </data>
+  <data name="Staff_IMesUserExits" xml:space="preserve">
+    <value>Tài khoản này đã được đăng ký.</value>
+  </data>
+  <data name="Staff_UMesSuccess" xml:space="preserve">
+    <value>Sửa thông tin nhân viên thành công.</value>
+  </data>
+  <data name="Staff_UMesUnsuccess" xml:space="preserve">
+    <value>Sửa thông tin nhân viên không thành công.</value>
+  </data>
+  <data name="Tax_DMesSuccess" xml:space="preserve">
+    <value>Xóa thông tin cơ quan thuế thành công.</value>
+  </data>
+  <data name="Tax_DMesUnsuccess" xml:space="preserve">
+    <value>Xóa thông tin cơ quan thuế không thành công.</value>
+  </data>
+  <data name="Tax_IMesSuccess" xml:space="preserve">
+    <value>Thêm thông tin cơ quan thuế thành công.</value>
+  </data>
+  <data name="Tax_IMesUnsuccess" xml:space="preserve">
+    <value>Thêm thông tin cơ quan thuế không thành công.</value>
+  </data>
+  <data name="Tax_UMesSuccess" xml:space="preserve">
+    <value>Sửa thông tin cơ quan thuế thành công.</value>
+  </data>
+  <data name="Tax_UMesUnsuccess" xml:space="preserve">
+    <value>Sửa thông tin cơ quan thuế không thành công.</value>
+  </data>
+  <data name="Temp_DMesUnsuccess" xml:space="preserve">
+    <value>Không thể xóa mẫu hóa đơn này.</value>
+  </data>
+  <data name="Temp_IMesSuccess" xml:space="preserve">
+    <value>Thêm thông tin mẫu hóa đơn thành công.</value>
+  </data>
+  <data name="Temp_UMesSuccess" xml:space="preserve">
+    <value>Sửa thông tin mẫu hóa đơn thành công.</value>
+  </data>
+  <data name="User_DMesSuccess" xml:space="preserve">
+    <value>Xóa tài khoản thành công.</value>
+  </data>
+  <data name="User_IMesSuccess" xml:space="preserve">
+    <value>Tạo tài khoản thành công.</value>
+  </data>
+  <data name="User_MesCantDel" xml:space="preserve">
+    <value>Không thể xóa tài khoản đang sử dụng.</value>
+  </data>
+  <data name="User_MesChangePasswordSuccess" xml:space="preserve">
+    <value>Thay đổi mật khẩu thành công.</value>
+  </data>
+  <data name="User_MesConfirmPass" xml:space="preserve">
+    <value>Nhập lại mật khẩu.</value>
+  </data>
+  <data name="User_MesErrConfirmPass" xml:space="preserve">
+    <value>Mật khẩu mới và mật khẩu mới nhập lại không giống nhau.</value>
+  </data>
+  <data name="User_MesNewPassLikeOldPass" xml:space="preserve">
+    <value>Mật khẩu mới và mật khẩu cũ giống nhau.</value>
+  </data>
+  <data name="User_MesWrongAccOrPass" xml:space="preserve">
+    <value>Tên đăng nhập hoặc mật khẩu không đúng.</value>
+  </data>
+  <data name="User_MesWrongPass" xml:space="preserve">
+    <value>Nhập sai mật khẩu.</value>
+  </data>
+  <data name="User_UMesCantEdit" xml:space="preserve">
+    <value>Không thể sửa tài khoản đang sử dụng này.</value>
+  </data>
+  <data name="User_UMesExits" xml:space="preserve">
+    <value>Đã tồn tại tài khoản này.</value>
+  </data>
+  <data name="User_UMesSuccess" xml:space="preserve">
+    <value>Sửa tài khoản thành công.</value>
+  </data>
+  <data name="AdjReInv_MesAcceptInv" xml:space="preserve">
+    <value>Bạn chấp nhận hóa đơn này?</value>
+  </data>
+  <data name="AdjReInv_MesPleaseWait" xml:space="preserve">
+    <value>Xin vui lòng đợi!</value>
+  </data>
+  <data name="Cat_MesConfirmDel" xml:space="preserve">
+    <value>Bạn có chắc chắn xóa loại hóa đơn này không?</value>
+  </data>
+  <data name="Cert_MesConfirmDel" xml:space="preserve">
+    <value>Bạn có chắc chắn xóa chứng thư này không?</value>
+  </data>
+  <data name="Com_MesErrFileSize" xml:space="preserve">
+    <value>Kích thước của file này phải nhỏ hơn 512kb, Kiểu file này không đúng xin vui lòng nhập lại.</value>
+  </data>
+  <data name="Conv_MesChooseInv" xml:space="preserve">
+    <value>Bạn Cần chọn hóa đơn cần chuyển đổi</value>
+  </data>
+  <data name="Conv_MesNotChooseInv" xml:space="preserve">
+    <value>Chưa chọn hóa đơn cần chuyển đổi</value>
+  </data>
+  <data name="Cus_MesConfirmDel" xml:space="preserve">
+    <value>Bạn có chắc chắn xóa khách hàng này không.</value>
+  </data>
+  <data name="Dec_MesConfirmDel" xml:space="preserve">
+    <value>Bạn có chắc chắn xóa quyết định này?</value>
+  </data>
+  <data name="InvAdj_MesWrongInvNo" xml:space="preserve">
+    <value>Nhập đúng số hóa đơn thay thế</value>
+  </data>
+  <data name="Key_MesNoKeyStoreInfo" xml:space="preserve">
+    <value>Bạn chưa cập nhật thông tin KeyStore. Vui lòng click vào chỉnh sửa để cập nhật thông tin</value>
+  </data>
+  <data name="MInv_MesChooseInvToPublish" xml:space="preserve">
+    <value>Bạn cần chọn hóa đơn phát hành</value>
+  </data>
+  <data name="MInv_MesConfirmDel" xml:space="preserve">
+    <value>Bạn có chắc chắn xóa hóa đơn này không?</value>
+  </data>
+  <data name="MInv_MesConfirmPublish" xml:space="preserve">
+    <value>Bạn chấp nhận phát hành</value>
+  </data>
+  <data name="MInv_MesNotAllowDelLine" xml:space="preserve">
+    <value>Dòng không cho phép xóa</value>
+  </data>
+  <data name="MInv_MesWrongCode" xml:space="preserve">
+    <value>Mã số chưa đúng</value>
+  </data>
+  <data name="MPleaseWait" xml:space="preserve">
+    <value>Xin vui lòng đợi!</value>
+  </data>
+  <data name="PLInv_ConfirmBatchPub" xml:space="preserve">
+    <value>Bạn có chắc chắn thực hiện phát hành lô hóa đơn không?</value>
+  </data>
+  <data name="PLInv_MesErrChooseCert" xml:space="preserve">
+    <value>Chọn sai chứng thư</value>
+  </data>
+  <data name="PLInv_MesPubishSuccess" xml:space="preserve">
+    <value>Phát hành thành công</value>
+  </data>
+  <data name="Prod_MesConfirmDel" xml:space="preserve">
+    <value>Bạn có chắc chắn xóa sản phẩm này không?</value>
+  </data>
+  <data name="Pub_MesConfirmDel" xml:space="preserve">
+    <value>Bạn có chắc chắn xóa thông báo này không?</value>
+  </data>
+  <data name="Pub_MesViewRegPattern" xml:space="preserve">
+    <value>Xem mẫu hóa đơn đăng ký</value>
+  </data>
+  <data name="RTemp_MesConfirmDel" xml:space="preserve">
+    <value>Bạn có chắc chắn xóa đăng ký mẫu này không?</value>
+  </data>
+  <data name="RTemp_MesUsedPattern" xml:space="preserve">
+    <value>Pattern Order này đã được sử dụng, hãy chọn lại</value>
+  </data>
+  <data name="Tax_MesConfirmDel" xml:space="preserve">
+    <value>Bạn có chắc chắn xóa cơ quan thuế này không?</value>
+  </data>
+  <data name="Temp_MesConfirmDel" xml:space="preserve">
+    <value>Bạn có chắc chắn xóa mẫu hóa đơn này không?</value>
+  </data>
+  <data name="Temp_MesExistName" xml:space="preserve">
+    <value>Đã tồn tại tên mẫu này, Hãy nhập lại</value>
+  </data>
+  <data name="Temp_MesWrongFormat" xml:space="preserve">
+    <value>Không đúng định dạng</value>
+  </data>
+  <data name="User_MesConfirmDel" xml:space="preserve">
+    <value>Bạn có chắc chắn xóa tài khoản này không?</value>
+  </data>
+  <data name="User_MesInvalidUserOrPass" xml:space="preserve">
+    <value>Sử dụng tên đăng nhập và mật khẩu hợp lệ để đăng nhập</value>
+  </data>
+  <data name="User_MesNotSameOldPass" xml:space="preserve">
+    <value>Không trùng với mật khẩu cũ</value>
+  </data>
+  <data name="User_MesRetypePass" xml:space="preserve">
+    <value>Nhập lại mật khẩu.</value>
+  </data>
+  <data name="Com_MessErrofiletail" xml:space="preserve">
+    <value>Kiểu file này không đúng xin vui lòng nhập lại!.</value>
+  </data>
+  <data name="Com_IMesSuccess" xml:space="preserve">
+    <value>Tạo thông tin công ty thành công.</value>
+  </data>
+  <data name="Key_IMesExits" xml:space="preserve">
+    <value>Khóa của công ty đã tồn tại.</value>
+  </data>
+  <data name="Key_IMesSuccess" xml:space="preserve">
+    <value>Thêm thông tin chứng thư thành công.</value>
+  </data>
+  <data name="Key_MesReqConfig" xml:space="preserve">
+    <value>Chưa cấu hình chữ ký số.</value>
+  </data>
+  <data name="Key_SMesWrongPassToken" xml:space="preserve">
+    <value>Sai mật khẩu token.</value>
+  </data>
+  <data name="Temp_DMesSuccess" xml:space="preserve">
+    <value>Xóa mẫu hóa đơn thành công.</value>
+  </data>
+  <data name="Staff_MessDeleteStaff" xml:space="preserve">
+    <value>Bạn có chắc chắn xóa nhân viên này không?</value>
+  </data>
+  <data name="Dec_MesEffectiveDateBigToday" xml:space="preserve">
+    <value>Ngày có hiệu lực phải bằng hoặc sau ngày hiện tại</value>
+  </data>
+  <data name="Dec_MesToDateBigBeginDate" xml:space="preserve">
+    <value>Đến ngày HĐ phải lớn hơn hoặc bằng Từ ngày HĐ!</value>
+  </data>
+  <data name="AdjReInv_MesSignUnsuccess" xml:space="preserve">
+    <value>Ký không thành công.</value>
+  </data>
+  <data name="Temp_MesConfluentNameTemp" xml:space="preserve">
+    <value>Đã tồn tại tên mẫu này, hãy nhập lại</value>
+  </data>
+  <data name="InvAdj_MesConfirmDelProd" xml:space="preserve">
+    <value>Bạn có chắc muốn xóa sản phẩm này?</value>
+  </data>
+  <data name="InvAdj_MesErrDelProd" xml:space="preserve">
+    <value>Không xóa được.</value>
+  </data>
+  <data name="InvAdj_MesErrInvNo" xml:space="preserve">
+    <value>Nhập đúng số hóa đơn cần sửa.</value>
+  </data>
+  <data name="Key_MesSelectSuccess" xml:space="preserve">
+    <value>Chọn chứng thư thành công.</value>
+  </data>
+  <data name="Dec_MesConfirmAccept" xml:space="preserve">
+    <value>Xác nhận chấp nhận quyết định này?</value>
+  </data>
+  <data name="Dec_MesConfirmSend" xml:space="preserve">
+    <value>Xác nhận gửi quyết định này?</value>
+  </data>
+  <data name="Dec_MesErrDate" xml:space="preserve">
+    <value>Ngày chấp nhận thông báo phát hành phải lớn hơn hoặc bằng ngày hiện tại.</value>
+  </data>
+  <data name="Dec_MesErrSelectDate" xml:space="preserve">
+    <value>Bạn chưa chọn ngày bắt đầu sử dụng hóa đơn.</value>
+  </data>
+  <data name="MInv_MesReqInformation" xml:space="preserve">
+    <value>Bạn cần nhập đầy đủ thông tin.</value>
+  </data>
+  <data name="Pay_MesConfirm" xml:space="preserve">
+    <value>Bạn chấp nhận thực hiện thanh toán?</value>
+  </data>
+  <data name="Pay_MesSelectInv" xml:space="preserve">
+    <value>Bạn cần chọn hóa đơn để thanh toán.</value>
+  </data>
+  <data name="Pub_MesConfirmAccept" xml:space="preserve">
+    <value>Xác nhận chấp nhận thông báo này?</value>
+  </data>
+  <data name="Pub_MesConfirmSend" xml:space="preserve">
+    <value>Xác nhận gửi thông báo này?</value>
+  </data>
+  <data name="ReUse_ReqTime" xml:space="preserve">
+    <value>Xin vui lòng nhập đầy đủ thông tin khoảng thời gian báo cáo.</value>
+  </data>
+  <data name="User_MesErrConfirmPas" xml:space="preserve">
+    <value>Mật khẩu nhập lại không đúng.</value>
+  </data>
+  <data name="User_MesReqConfirmNewPass" xml:space="preserve">
+    <value>Nhập lại mật khẩu mới.</value>
+  </data>
+  <data name="User_MesReqMinLengthPass" xml:space="preserve">
+    <value>Mật khẩu dài ít nhất {0} ký tự.</value>
+  </data>
+  <data name="User_MesReqNewPass" xml:space="preserve">
+    <value>Nhập mật khẩu mới.</value>
+  </data>
+  <data name="User_MesReqOldPass" xml:space="preserve">
+    <value>Nhập mật khẩu hiện tại.</value>
+  </data>
+  <data name="PInv_MInvNonExitsInTime" xml:space="preserve">
+    <value>Không tồn tại hóa đơn trong khoảng thời gian được chọn</value>
+  </data>
+</root>

@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<BKHDDV>
+  <CongTy>Trung tâm Điện toán truyền số liệu khu vực 1</CongTy>
+  <MST>0100691544-001</MST>
+  <DiaChi>Lô 2A LÀNG QUỐC TẾ THĂNG LONG - CẦU GIẤY - HÀ NỘI</DiaChi>
+  <Ky Thang="4" Nam="2013" />
+  <Ngay>24/04/2013</Ngay>
+  <HD0VAT TongDT="39900000" TongThue="0">
+    <Item>
+      <HD KyHieu="AA/15E" So="22" Ngay="24/04/2013" />
+      <KH Ten="truong" MST="" />
+      <MatHang Ten="Laptop xịn" Gia="39900000" />
+      <Thue>0</Thue>
+    </Item>
+  </HD0VAT>
+  <VAT0 TongDT="2" TongThue="0">
+    <Item>
+      <HD KyHieu="AA/15E" So="7" Ngay="22/04/2013" />
+      <KH Ten="tru" MST="" />
+      <MatHang Ten="1" Gia="1" />
+      <Thue>0</Thue>
+    </Item>
+    <Item>
+      <HD KyHieu="AA/15E" So="8" Ngay="22/04/2013" />
+      <KH Ten="tru" MST="" />
+      <MatHang Ten="1" Gia="1" />
+      <Thue>0</Thue>
+    </Item>
+  </VAT0>
+  <VAT5 TongDT="35555" TongThue="15653">
+    <Item>
+      <HD KyHieu="AT/13E" So="1" Ngay="23/04/2013" />
+      <KH Ten="testportal" MST="" />
+      <MatHang Ten="1" Gia="1" />
+      <Thue>0</Thue>
+    </Item>
+    <Item>
+      <HD KyHieu="AA/15E" So="1" Ngay="22/04/2013" />
+      <KH Ten="Test Customer19" MST="" />
+      <MatHang Ten="hoa don random22" Gia="111" />
+      <Thue>616</Thue>
+    </Item>
+    <Item>
+      <HD KyHieu="AT/13E" So="2" Ngay="23/04/2013" />
+      <KH Ten="testportal" MST="" />
+      <MatHang Ten="1" Gia="1" />
+      <Thue>0</Thue>
+    </Item>
+    <Item>
+      <HD KyHieu="AA/15E" So="2" Ngay="22/04/2013" />
+      <KH Ten="Test Customer18" MST="" />
+      <MatHang Ten="hoa don random21" Gia="111" />
+      <Thue>616</Thue>
+    </Item>
+    <Item>
+      <HD KyHieu="AA/15E" So="3" Ngay="22/04/2013" />
+      <KH Ten="Test Customer17" MST="" />
+      <MatHang Ten="hoa don random20" Gia="111" />
+      <Thue>616</Thue>
+    </Item>
+    <Item>
+      <HD KyHieu="AA/15E" So="4" Ngay="22/04/2013" />
+      <KH Ten="Test Customer14" MST="" />
+      <MatHang Ten="hoa don random17" Gia="111" />
+      <Thue>616</Thue>
+    </Item>
+    <Item>
+      <HD KyHieu="AA/15E" So="5" Ngay="22/04/2013" />
+      <KH Ten="Test Customer15" MST="" />
+      <MatHang Ten="hoa don random18" Gia="111" />
+      <Thue>616</Thue>
+    </Item>
+    <Item>
+      <HD KyHieu="AA/15E" So="6" Ngay="22/04/2013" />
+      <KH Ten="Test Customer16" MST="" />
+      <MatHang Ten="hoa don random19" Gia="111" />
+      <Thue>616</Thue>
+    </Item>
+    <Item>
+      <HD KyHieu="AA/15E" So="9" Ngay="22/04/2013" />
+      <KH Ten="quanglt" MST="8102571790" />
+      <MatHang Ten="may tinh" Gia="33333" />
+      <Thue>3333</Thue>
+    </Item>
+    <Item>
+      <HD KyHieu="AA/15E" So="11" Ngay="23/04/2013" />
+      <KH Ten="Test Customer13" MST="" />
+      <MatHang Ten="hoa don random16" Gia="111" />
+      <Thue>616</Thue>
+    </Item>
+    <Item>
+      <HD KyHieu="AA/15E" So="12" Ngay="23/04/2013" />
+      <KH Ten="Test Customer12" MST="" />
+      <MatHang Ten="hoa don random15" Gia="111" />
+      <Thue>616</Thue>
+    </Item>
+    <Item>
+      <HD KyHieu="AA/15E" So="13" Ngay="23/04/2013" />
+      <KH Ten="Test Customer11" MST="" />
+      <MatHang Ten="hoa don random14" Gia="111" />
+      <Thue>616</Thue>
+    </Item>
+    <Item>
+      <HD KyHieu="AA/15E" So="14" Ngay="23/04/2013" />
+      <KH Ten="Test Customer10" MST="" />
+      <MatHang Ten="hoa don random13" Gia="111" />
+      <Thue>616</Thue>
+    </Item>
+    <Item>
+      <HD KyHieu="AA/15E" So="15" Ngay="23/04/2013" />
+      <KH Ten="Test Customer9" MST="" />
+      <MatHang Ten="hoa don random12" Gia="111" />
+      <Thue>616</Thue>
+    </Item>
+    <Item>
+      <HD KyHieu="AA/15E" So="16" Ngay="23/04/2013" />
+      <KH Ten="Test Customer8" MST="" />
+      <MatHang Ten="hoa don random11" Gia="111" />
+      <Thue>616</Thue>
+    </Item>
+    <Item>
+      <HD KyHieu="AA/15E" So="17" Ngay="23/04/2013" />
+      <KH Ten="Test Customer7" MST="" />
+      <MatHang Ten="hoa don random10" Gia="111" />
+      <Thue>616</Thue>
+    </Item>
+    <Item>
+      <HD KyHieu="AA/15E" So="18" Ngay="23/04/2013" />
+      <KH Ten="Test Customer6" MST="" />
+      <MatHang Ten="hoa don random9" Gia="111" />
+      <Thue>616</Thue>
+    </Item>
+    <Item>
+      <HD KyHieu="AA/15E" So="19" Ngay="23/04/2013" />
+      <KH Ten="Test Customer5" MST="" />
+      <MatHang Ten="hoa don random8" Gia="111" />
+      <Thue>616</Thue>
+    </Item>
+    <Item>
+      <HD KyHieu="AA/15E" So="20" Ngay="23/04/2013" />
+      <KH Ten="Test Customer4" MST="" />
+      <MatHang Ten="hoa don random7" Gia="111" />
+      <Thue>616</Thue>
+    </Item>
+    <Item>
+      <HD KyHieu="AA/15E" So="23" Ngay="24/04/2013" />
+      <KH Ten="Test Customer3" MST="" />
+      <MatHang Ten="hoa don random6" Gia="111" />
+      <Thue>616</Thue>
+    </Item>
+    <Item>
+      <HD KyHieu="AA/15E" So="24" Ngay="24/04/2013" />
+      <KH Ten="Test Customer2" MST="" />
+      <MatHang Ten="hoa don random5" Gia="111" />
+      <Thue>616</Thue>
+    </Item>
+    <Item>
+      <HD KyHieu="AA/15E" So="25" Ngay="24/04/2013" />
+      <KH Ten="Test Customer1" MST="" />
+      <MatHang Ten="hoa don random4" Gia="111" />
+      <Thue>616</Thue>
+    </Item>
+    <Item>
+      <HD KyHieu="AA/15E" So="26" Ngay="24/04/2013" />
+      <KH Ten="Test Customer0" MST="" />
+      <MatHang Ten="hoa don random3" Gia="111" />
+      <Thue>616</Thue>
+    </Item>
+  </VAT5>
+  <VAT10 TongDT="1" TongThue="556">
+    <Item>
+      <HD KyHieu="AA/15E" So="10" Ngay="22/04/2013" />
+      <KH Ten="quanglt" MST="0100691544-001" />
+      <MatHang Ten="cai" Gia="0" />
+      <Thue>556</Thue>
+    </Item>
+    <Item>
+      <HD KyHieu="AA/15E" So="21" Ngay="23/04/2013" />
+      <KH Ten="testportal" MST="" />
+      <MatHang Ten="1" Gia="1" />
+      <Thue>0</Thue>
+    </Item>
+  </VAT10>
+  <DB Tong="0" />
+  <Tong TongDT="39935558" TongThue="15653" />
+</BKHDDV>

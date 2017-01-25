@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HSoThueDTu>
+<HSoKhaiThue>
+<TTinChung>
+<TTinDVu>
+<maDVu></maDVu>
+<tenDVu></tenDVu>
+<pbanDVu></pbanDVu>
+<ttinNhaCCapDVu></ttinNhaCCapDVu>
+</TTinDVu>
+<TTinTKhaiThue>
+<TKhaiThue>
+<maTKhai></maTKhai>
+<tenTKhai></tenTKhai>
+<moTaBMau>(Ban hành kèm theo Thông tư số 119/2014/TT-BTC ngày 25/8/2014 của Bộ Tài chính)</moTaBMau>
+<pbanTKhaiXML>2.0.7</pbanTKhaiXML>
+<loaiTKhai>C</loaiTKhai>
+<soLan>0</soLan>
+<KyKKhaiThue>
+<kieuKy>M</kieuKy>
+<kyKKhai>10/2015</kyKKhai>
+<kyKKhaiTuNgay>01/10/2015</kyKKhaiTuNgay>
+<kyKKhaiDenNgay>31/10/2015</kyKKhaiDenNgay>
+<kyKKhaiTuThang>10</kyKKhaiTuThang>
+<kyKKhaiDenThang>10</kyKKhaiDenThang>
+</KyKKhaiThue>
+<maCQTNoiNop></maCQTNoiNop>
+<tenCQTNoiNop></tenCQTNoiNop>
+<ngayLapTKhai>2015-10-20</ngayLapTKhai>
+<GiaHan>
+<maLyDoGiaHan></maLyDoGiaHan>
+<lyDoGiaHan></lyDoGiaHan>
+</GiaHan>
+<nguoiKy></nguoiKy>
+<ngayKy></ngayKy>
+<nganhNgheKD></nganhNgheKD>
+</TKhaiThue>
+<NNT>
+<mst>0101003060</mst>
+<tenNNT><![CDATA[Công ty cổ phần chứng khoán ngân hàng đầu tư và phát triển Việt Nam]]></tenNNT>
+<dchiNNT><![CDATA[Tầng 1, 10, 11 Tháp BIDV 35 Hàng Vôi, phường Lý Thái Tổ, quận Hoàn Kiếm, Hà Nội]]></dchiNNT>
+<phuongXa></phuongXa>
+<maHuyenNNT></maHuyenNNT>
+<tenHuyenNNT></tenHuyenNNT>
+<maTinhNNT></maTinhNNT>
+<tenTinhNNT></tenTinhNNT>
+<dthoaiNNT>04 39352722</dthoaiNNT>
+<faxNNT></faxNNT>
+<emailNNT></emailNNT>
+	</NNT>
+</TTinTKhaiThue>
+</TTinChung>
+ <CTieuTKhaiChinh>
+<tieuMucHachToan></tieuMucHachToan>
+<ct21></ct21>
+<ct22></ct22>
+<GiaTriVaThueGTGTHHDVMuaVao>
+<ct23></ct23>
+<ct24></ct24>
+</GiaTriVaThueGTGTHHDVMuaVao>
+<ct25></ct25>
+<ct26></ct26>
+<HHDVBRaChiuThueGTGT>
+	<ct27></ct27>
+	<ct28></ct28>
+</HHDVBRaChiuThueGTGT>
+<ct29></ct29>
+<HHDVBRaChiuTSuat5>
+	<ct30></ct30>
+	<ct31></ct31>
+</HHDVBRaChiuTSuat5>
+<HHDVBRaChiuTSuat10>
+	<ct32></ct32>
+	<ct33></ct33>
+	</HHDVBRaChiuTSuat10>
+	<TongDThuVaThueGTGTHHDVBRa>
+		<ct34></ct34>
+		<ct35></ct35>
+	</TongDThuVaThueGTGTHHDVBRa>
+	<ct36></ct36>
+	<ct37></ct37>
+	<ct38></ct38>
+	<ct39></ct39>
+	<ct40a></ct40a>
+	<ct40b></ct40b>
+	<ct40></ct40>
+	<ct41></ct41>
+	<ct42></ct42>
+	<ct43></ct43>
+</CTieuTKhaiChinh>
+<PLuc>
+<PL01_1_GTGT>
+<HHDVKChiuThue>
+<ChiTietHHDVKChiuThue>
+<HDonBRa id="ID_1"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000006</soHDon><ngayPHanh>02/10/2015</ngayPHanh><tenNMUA><![CDATA[Ngân hàng Đầu tư và Phát triển Campuchia Chi nhánh TP Hồ Chí Minh]]></tenNMUA><mstNMUA>0309518580</mstNMUA><matHang></matHang><dsoBanChuaThue>733.333.333</dsoBanChuaThue><thueGTGT>00</thueGTGT><ghiChu><![CDATA[]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_2"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000007</soHDon><ngayPHanh>05/10/2015</ngayPHanh><tenNMUA><![CDATA[BIDV Nam Thái Nguyên]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>00</dsoBanChuaThue><thueGTGT>00</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_3"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000008</soHDon><ngayPHanh>05/10/2015</ngayPHanh><tenNMUA><![CDATA[Chi nhánh NHĐT&PT Hải Vân]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>155.833.333</dsoBanChuaThue><thueGTGT>00</thueGTGT><ghiChu><![CDATA[]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_4"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000009</soHDon><ngayPHanh>05/10/2015</ngayPHanh><tenNMUA><![CDATA[Chi nhánh NHĐT&PT Quang Trung]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>190.277.777</dsoBanChuaThue><thueGTGT>00</thueGTGT><ghiChu><![CDATA[]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_5"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000010</soHDon><ngayPHanh>05/10/2015</ngayPHanh><tenNMUA><![CDATA[BIDV Bến Nghé]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>155.833.333</dsoBanChuaThue><thueGTGT>00</thueGTGT><ghiChu><![CDATA[]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_6"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000011</soHDon><ngayPHanh>05/10/2015</ngayPHanh><tenNMUA><![CDATA[Công ty CP chứng khoán ngân hàng đầu tư và phát triển Việt Nam]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>89.621</dsoBanChuaThue><thueGTGT>00</thueGTGT><ghiChu><![CDATA[]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_7"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000013</soHDon><ngayPHanh>01/10/2015</ngayPHanh><tenNMUA><![CDATA[Khách hàng cá nhân]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>11.000.000</dsoBanChuaThue><thueGTGT>1.000.000</thueGTGT><ghiChu><![CDATA[]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_8"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000014</soHDon><ngayPHanh>05/10/2015</ngayPHanh><tenNMUA><![CDATA[Khách hàng cá nhân]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>110.000</dsoBanChuaThue><thueGTGT>00</thueGTGT><ghiChu><![CDATA[]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_9"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000012</soHDon><ngayPHanh>02/10/2015</ngayPHanh><tenNMUA><![CDATA[Khách hàng cá nhân]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>174.416.654</dsoBanChuaThue><thueGTGT>00</thueGTGT><ghiChu><![CDATA[]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_10"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000015</soHDon><ngayPHanh>05/10/2015</ngayPHanh><tenNMUA><![CDATA[Khách hàng cá nhân]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>180.185.196</dsoBanChuaThue><thueGTGT>00</thueGTGT><ghiChu><![CDATA[]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_11"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000016</soHDon><ngayPHanh>01/10/2015</ngayPHanh><tenNMUA><![CDATA[Khách hàng cá nhân]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>84.174.558</dsoBanChuaThue><thueGTGT>00</thueGTGT><ghiChu><![CDATA[]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_12"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000017</soHDon><ngayPHanh>01/10/2015</ngayPHanh><tenNMUA><![CDATA[Khách hàng cá nhân]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>4.763.278</dsoBanChuaThue><thueGTGT>00</thueGTGT><ghiChu><![CDATA[]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_13"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000018</soHDon><ngayPHanh>01/10/2015</ngayPHanh><tenNMUA><![CDATA[Khách hàng cá nhân]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>7.366.595</dsoBanChuaThue><thueGTGT>00</thueGTGT><ghiChu><![CDATA[]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_14"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000019</soHDon><ngayPHanh>01/10/2015</ngayPHanh><tenNMUA><![CDATA[Khách hàng cá nhân]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>6.731.961</dsoBanChuaThue><thueGTGT>00</thueGTGT><ghiChu><![CDATA[]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_15"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000020</soHDon><ngayPHanh>01/10/2015</ngayPHanh><tenNMUA><![CDATA[Khách hàng cá nhân]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>14.072.782</dsoBanChuaThue><thueGTGT>00</thueGTGT><ghiChu><![CDATA[]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_16"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000021</soHDon><ngayPHanh>05/10/2015</ngayPHanh><tenNMUA><![CDATA[Khách hàng cá nhân]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>30.283.222</dsoBanChuaThue><thueGTGT>00</thueGTGT><ghiChu><![CDATA[]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_17"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000022</soHDon><ngayPHanh>02/10/2015</ngayPHanh><tenNMUA><![CDATA[Khách hàng cá nhân]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>160.373.032</dsoBanChuaThue><thueGTGT>00</thueGTGT><ghiChu><![CDATA[]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_18"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000023</soHDon><ngayPHanh>05/10/2015</ngayPHanh><tenNMUA><![CDATA[Khách hàng cá nhân]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>208.657.342</dsoBanChuaThue><thueGTGT>00</thueGTGT><ghiChu><![CDATA[]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_19"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000024</soHDon><ngayPHanh>05/10/2015</ngayPHanh><tenNMUA><![CDATA[Khách hàng cá nhân]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>30.090.232</dsoBanChuaThue><thueGTGT>00</thueGTGT><ghiChu><![CDATA[]]></ghiChu></HDonBRa>
+</ChiTietHHDVKChiuThue>
+<tongDThuBRaKChiuThue>2147592249</tongDThuBRaKChiuThue>
+</HHDVKChiuThue>
+<HHDVThue0>
+<ChiTietHHDVThue0>
+<HDonBRa id="ID_1"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000025</soHDon><ngayPHanh>19/10/2015</ngayPHanh><tenNMUA><![CDATA[Ngân hàng Đầu tư và Phát triển Campuchia Chi nhánh TP Hồ Chí Minh]]></tenNMUA><mstNMUA>0309518580</mstNMUA><matHang></matHang><dsoBanChuaThue>00</dsoBanChuaThue><thueGTGT>00</thueGTGT><ghiChu><![CDATA[Điều chỉnh thông tin]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_2"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000026</soHDon><ngayPHanh>19/10/2015</ngayPHanh><tenNMUA><![CDATA[BIDV Nam Thái Nguyên]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>00</dsoBanChuaThue><thueGTGT>00</thueGTGT><ghiChu><![CDATA[]]></ghiChu></HDonBRa>
+</ChiTietHHDVThue0>
+<tongDThuBRaThue0>0</tongDThuBRaThue0><tongThueBRaThue0>0</tongThueBRaThue0>
+</HHDVThue0>
+<HHDVThue5>
+<ChiTietHHDVThue5>
+</ChiTietHHDVThue5>
+<tongDThuBRaThue5>0</tongDThuBRaThue5><tongThueBRaThue5>0</tongThueBRaThue5>
+</HHDVThue5>
+<HHDVThue10>
+<ChiTietHHDVThue10>
+</ChiTietHHDVThue10>
+<tongDThuBRaThue10>0</tongDThuBRaThue10><tongThueBRaThue10>0</tongThueBRaThue10>
+</HHDVThue10>
+<tongDThuBRa>2147592249</tongDThuBRa><tongDThuBRaChiuThue>0</tongDThuBRaChiuThue><tongThueBRa>0</tongThueBRa>
+</PL01_1_GTGT>
+</PLuc>
+</HSoKhaiThue>
+</HSoThueDTu>

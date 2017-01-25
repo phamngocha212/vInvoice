@@ -1,0 +1,88 @@
+<HSoThueDTu>
+  <HSoKhaiThue id="_NODE_TO_SIGN">
+    <TTinChung>
+      <TTinDVu>
+        <maDVu>HTKK</maDVu>
+        <tenDVu>HTKK</tenDVu>
+        <pbanDVu>3.2.5</pbanDVu>
+        <ttinNhaCCapDVu>
+        </ttinNhaCCapDVu>
+      </TTinDVu>
+      <TTinTKhaiThue>
+        <TKhaiThue>
+          <maTKhai>
+          </maTKhai>
+          <tenTKhai>Báo cáo tình hình sử dụng hóa đơn</tenTKhai>
+          <moTaBMau>(Ban hành kèm theo Thông tư số 156/2013/TT-BTC ngày 06/11/2013 của Bộ Tài chính)</moTaBMau>
+          <pbanTKhaiXML>
+          </pbanTKhaiXML>
+          <loaiTKhai>
+          </loaiTKhai>
+          <soLan>0</soLan>
+          <KyKKhaiThue>
+            <kieuKy>Q</kieuKy>
+            <kyKKhai>2/2016</kyKKhai>
+            <kyKKhaiTuNgay>01/04/2016</kyKKhaiTuNgay>
+            <kyKKhaiDenNgay>30/06/2016</kyKKhaiDenNgay>
+            <kyKKhaiTuThang>
+            </kyKKhaiTuThang>
+            <kyKKhaiDenThang>
+            </kyKKhaiDenThang>
+          </KyKKhaiThue>
+          <maCQTNoiNop>
+          </maCQTNoiNop>
+          <tenCQTNoiNop>
+          </tenCQTNoiNop>
+          <ngayLapTKhai>2016-08-13</ngayLapTKhai>
+          <GiaHan>
+            <maLyDoGiaHan>
+            </maLyDoGiaHan>
+            <lyDoGiaHan>
+            </lyDoGiaHan>
+          </GiaHan>
+          <nguoiKy>nguoi ky</nguoiKy>
+          <ngayKy>2016-08-13</ngayKy>
+          <nganhNgheKD>
+          </nganhNgheKD>
+        </TKhaiThue>
+        <NNT>
+          <mst>0101824243</mst>
+          <tenNNT>CÔNG TY TNHH PANASONIC VIỆT NAM</tenNNT>
+          <dchiNNT>Lô J1-J2, KCN Thăng Long, xã Kim Chung, huyện Đông Anh, thành phố Hà Nội, Việt Nam</dchiNNT>
+          <phuongXa>
+          </phuongXa>
+          <maHuyenNNT>
+          </maHuyenNNT>
+          <tenHuyenNNT>
+          </tenHuyenNNT>
+          <maTinhNNT>
+          </maTinhNNT>
+          <tenTinhNNT>Hà Nội</tenTinhNNT>
+          <dthoaiNNT>+84 (321) 6251710</dthoaiNNT>
+          <faxNNT>
+          </faxNNT>
+          <emailNNT>
+          </emailNNT>
+        </NNT>
+      </TTinTKhaiThue>
+    </TTinChung>
+    <CTieuTKhaiChinh>
+      <kyBCaoCuoi>0</kyBCaoCuoi>
+      <chuyenDiaDiem>
+      </chuyenDiaDiem>
+      <ngayDauKyBC>
+      </ngayDauKyBC>
+      <ngayCuoiKyBC>
+      </ngayCuoiKyBC>
+      <HoaDon />
+      <tongCongSoTonDKy>0</tongCongSoTonDKy>
+      <tongCongSDung>0</tongCongSDung>
+      <tongCongSoTonCKy>0</tongCongSoTonCKy>
+      <nguoiLapBieu>
+      </nguoiLapBieu>
+      <nguoiDaiDien>
+      </nguoiDaiDien>
+      <ngayBCao>13/08/2016</ngayBCao>
+    </CTieuTKhaiChinh>
+  </HSoKhaiThue>
+</HSoThueDTu>

@@ -1,0 +1,22 @@
+[subject]
+$site account information
+[/subject]
+[body]
+
+Thank you for registering at the Einvoice System - $site . <p/>
+
+Your Account information: <p/>
+
+Username: $username <br/>
+Password: $password <p/>
+
+Before we can activate your account one last step must be taken to complete your registration. <p/>
+
+Please note - you must complete this last step to become a registered member. You will only need to visit this URL once to activate your account. </p>
+
+To complete your registration, please visit this URL: <p>
+
+<a href=" $urlconfirm "> $urlconfirm </a>   <p/>
+
+Have fun!
+[/body]

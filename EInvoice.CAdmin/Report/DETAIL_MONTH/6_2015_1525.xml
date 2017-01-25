@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HSoThueDTu>
+<HSoKhaiThue>
+<TTinChung>
+<TTinDVu>
+<maDVu></maDVu>
+<tenDVu></tenDVu>
+<pbanDVu></pbanDVu>
+<ttinNhaCCapDVu></ttinNhaCCapDVu>
+</TTinDVu>
+<TTinTKhaiThue>
+<TKhaiThue>
+<maTKhai></maTKhai>
+<tenTKhai>TỜ KHAI THUẾ GIÁ TRỊ GIA TĂNG (Mẫu số 01/GTGT)</tenTKhai>
+<moTaBMau>(Ban hành kèm theo Thông tư số 119/2014/TT-BTC ngày 25/8/2014 của Bộ Tài chính)</moTaBMau>
+<pbanTKhaiXML>2.0.7</pbanTKhaiXML>
+<loaiTKhai>C</loaiTKhai>
+<soLan>0</soLan>
+<KyKKhaiThue>
+<kieuKy>M</kieuKy>
+<kyKKhai>06/2015</kyKKhai>
+<kyKKhaiTuNgay>01/06/2015</kyKKhaiTuNgay>
+<kyKKhaiDenNgay>30/06/2015</kyKKhaiDenNgay>
+<kyKKhaiTuThang>06</kyKKhaiTuThang>
+<kyKKhaiDenThang>06</kyKKhaiDenThang>
+</KyKKhaiThue>
+<maCQTNoiNop></maCQTNoiNop>
+<tenCQTNoiNop></tenCQTNoiNop>
+<ngayLapTKhai>2015-06-03</ngayLapTKhai>
+<GiaHan>
+<maLyDoGiaHan></maLyDoGiaHan>
+<lyDoGiaHan></lyDoGiaHan>
+</GiaHan>
+<nguoiKy></nguoiKy>
+<ngayKy></ngayKy>
+<nganhNgheKD></nganhNgheKD>
+</TKhaiThue>
+<NNT>
+<mst>0105762069</mst>
+	<tenNNT><![CDATA[Công ty điện toán và truyền số liệu VDC]]></tenNNT>
+<dchiNNT><![CDATA[Số nhà 124 Phố Láng Hạ, Phường Láng Hạ, Quận Đống Đa, TP. Hà Nội]]></dchiNNT>
+<phuongXa></phuongXa>
+<maHuyenNNT></maHuyenNNT>
+<tenHuyenNNT></tenHuyenNNT>
+<maTinhNNT></maTinhNNT>
+<tenTinhNNT></tenTinhNNT>
+<dthoaiNNT>Đỗ Tiến Đạt</dthoaiNNT>
+<faxNNT></faxNNT>
+<emailNNT></emailNNT>
+	</NNT>
+</TTinTKhaiThue>
+</TTinChung>
+ <CTieuTKhaiChinh>
+<tieuMucHachToan></tieuMucHachToan>
+<ct21></ct21>
+<ct22></ct22>
+<GiaTriVaThueGTGTHHDVMuaVao>
+<ct23></ct23>
+<ct24></ct24>
+</GiaTriVaThueGTGTHHDVMuaVao>
+<ct25></ct25>
+<ct26></ct26>
+<HHDVBRaChiuThueGTGT>
+	<ct27></ct27>
+	<ct28></ct28>
+</HHDVBRaChiuThueGTGT>
+<ct29></ct29>
+<HHDVBRaChiuTSuat5>
+	<ct30></ct30>
+	<ct31></ct31>
+</HHDVBRaChiuTSuat5>
+<HHDVBRaChiuTSuat10>
+	<ct32></ct32>
+	<ct33></ct33>
+	</HHDVBRaChiuTSuat10>
+	<TongDThuVaThueGTGTHHDVBRa>
+		<ct34></ct34>
+		<ct35></ct35>
+	</TongDThuVaThueGTGTHHDVBRa>
+	<ct36></ct36>
+	<ct37></ct37>
+	<ct38></ct38>
+	<ct39></ct39>
+	<ct40a></ct40a>
+	<ct40b></ct40b>
+	<ct40></ct40>
+	<ct41></ct41>
+	<ct42></ct42>
+	<ct43></ct43>
+</CTieuTKhaiChinh>
+<PLuc>
+<PL01_1_GTGT>
+<HHDVKChiuThue>
+<ChiTietHHDVKChiuThue>
+</ChiTietHHDVKChiuThue>
+<tongDThuBRaKChiuThue>0</tongDThuBRaKChiuThue>
+</HHDVKChiuThue>
+<HHDVThue0>
+<ChiTietHHDVThue0>
+<HDonBRa id="ID_1"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000274</soHDon><ngayPHanh>01/06/2015</ngayPHanh><tenNMUA><![CDATA[HƯƠNG]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>350000</dsoBanChuaThue><thueGTGT>35000</thueGTGT><ghiChu><![CDATA[]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_2"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000275</soHDon><ngayPHanh>01/06/2015</ngayPHanh><tenNMUA><![CDATA[HỒNG]]></tenNMUA><mstNMUA>0103791995</mstNMUA><matHang></matHang><dsoBanChuaThue>1080000</dsoBanChuaThue><thueGTGT>108000</thueGTGT><ghiChu><![CDATA[]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_3"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000276</soHDon><ngayPHanh>01/06/2015</ngayPHanh><tenNMUA><![CDATA[THĂNG]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>338334</dsoBanChuaThue><thueGTGT>33833</thueGTGT><ghiChu><![CDATA[]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_4"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000277</soHDon><ngayPHanh>01/06/2015</ngayPHanh><tenNMUA><![CDATA[CƯỜNG]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>350000</dsoBanChuaThue><thueGTGT>35000</thueGTGT><ghiChu><![CDATA[]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_5"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000278</soHDon><ngayPHanh>01/06/2015</ngayPHanh><tenNMUA><![CDATA[NGUYEN HOANG PHONG]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_6"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000279</soHDon><ngayPHanh>01/06/2015</ngayPHanh><tenNMUA><![CDATA[BUI THI THANH]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_7"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000280</soHDon><ngayPHanh>01/06/2015</ngayPHanh><tenNMUA><![CDATA[CONG TY CP EWAY]]></tenNMUA><mstNMUA>0103791995</mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_8"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000281</soHDon><ngayPHanh>01/06/2015</ngayPHanh><tenNMUA><![CDATA[HA MINH HIEU]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_9"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000282</soHDon><ngayPHanh>01/06/2015</ngayPHanh><tenNMUA><![CDATA[PHAN THI NGA]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_10"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000283</soHDon><ngayPHanh>01/06/2015</ngayPHanh><tenNMUA><![CDATA[CTY TNHH MTV SOXES VIET NAM]]></tenNMUA><mstNMUA>0311161271</mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_11"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000284</soHDon><ngayPHanh>01/06/2015</ngayPHanh><tenNMUA><![CDATA[CONG TY TNHH HAVAS MEDIA VIET NAM]]></tenNMUA><mstNMUA>0309942510</mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_12"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000285</soHDon><ngayPHanh>01/06/2015</ngayPHanh><tenNMUA><![CDATA[NGUYEN HOANG PHONG]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_13"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000286</soHDon><ngayPHanh>01/06/2015</ngayPHanh><tenNMUA><![CDATA[NGUYEN ANH TUAN]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_14"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000287</soHDon><ngayPHanh>01/06/2015</ngayPHanh><tenNMUA><![CDATA[]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_15"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000288</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[NGUYEN HOANG PHONG]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_16"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000289</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[NGUYEN HOANG PHONG]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_17"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000290</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[BUI THI THANH]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_18"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000291</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[CONG TY CP EWAY]]></tenNMUA><mstNMUA>0103791995</mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_19"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000292</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[HA MINH HIEU]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_20"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000293</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[PHAN THI NGA]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_21"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000294</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[CTY TNHH MTV SOXES VIET NAM]]></tenNMUA><mstNMUA>0311161271</mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_22"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000295</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[CONG TY TNHH HAVAS MEDIA VIET NAM]]></tenNMUA><mstNMUA>0309942510</mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_23"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000296</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[NGUYEN HOANG PHONG]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_24"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000297</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[NGUYEN ANH TUAN]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_25"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000298</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[NGUYEN HOANG PHONG]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_26"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000299</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[BUI THI THANH]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_27"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000300</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[CONG TY CP EWAY]]></tenNMUA><mstNMUA>0103791995</mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_28"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000301</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[HA MINH HIEU]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_29"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000302</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[PHAN THI NGA]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_30"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000303</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[CTY TNHH MTV SOXES VIET NAM]]></tenNMUA><mstNMUA>0311161271</mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_31"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000304</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[CONG TY TNHH HAVAS MEDIA VIET NAM]]></tenNMUA><mstNMUA>0309942510</mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_32"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000305</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[NGUYEN HOANG PHONG]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_33"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000306</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[NGUYEN ANH TUAN]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_34"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000307</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[NGUYEN HOANG PHONG]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_35"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000308</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[BUI THI THANH]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_36"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000309</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[CONG TY CP EWAY]]></tenNMUA><mstNMUA>0103791995</mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_37"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000310</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[HA MINH HIEU]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_38"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000311</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[PHAN THI NGA]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_39"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000312</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[CTY TNHH MTV SOXES VIET NAM]]></tenNMUA><mstNMUA>0311161271</mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_40"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000313</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[CONG TY TNHH HAVAS MEDIA VIET NAM]]></tenNMUA><mstNMUA>0309942510</mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_41"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000314</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[NGUYEN HOANG PHONG]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_42"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000315</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[NGUYEN ANH TUAN]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_43"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000316</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[NGUYEN PHUONG THAO]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_44"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000317</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[Do Tien Dat]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_45"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000318</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[Do Tien Dat]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_46"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000319</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[Do Tien Dat]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>122222</dsoBanChuaThue><thueGTGT>12222</thueGTGT><ghiChu><![CDATA[]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_47"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000320</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[GIÁP MẠNH CƯỜNG]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_48"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000321</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[NGUYỄN VĂN THĂNG]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>66949</dsoBanChuaThue><thueGTGT>6695</thueGTGT><ghiChu><![CDATA[]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_49"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000322</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_50"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000323</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[]]></tenNMUA><mstNMUA>0103791995</mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_51"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000324</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_52"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000325</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>350000</dsoBanChuaThue><thueGTGT>35000</thueGTGT><ghiChu><![CDATA[]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_53"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000326</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[NGUYEN HOANG PHONG]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_54"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000327</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[BUI THI THANH]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_55"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000328</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[CONG TY CP EWAY]]></tenNMUA><mstNMUA>0103791995</mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_56"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000329</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[HA MINH HIEU]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_57"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000330</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[PHAN THI NGA]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_58"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000331</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[CTY TNHH MTV SOXES VIET NAM]]></tenNMUA><mstNMUA>0311161271</mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_59"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000332</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[CONG TY TNHH HAVAS MEDIA VIET NAM]]></tenNMUA><mstNMUA>0309942510</mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_60"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000333</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[NGUYEN HOANG PHONG]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_61"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000334</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[NGUYEN ANH TUAN]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_62"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000335</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[NGUYEN HOANG PHONG]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_63"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000336</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[BUI THI THANH]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_64"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000337</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[CONG TY CP EWAY]]></tenNMUA><mstNMUA>0103791995</mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_65"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000338</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[HA MINH HIEU]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_66"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000339</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[PHAN THI NGA]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_67"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000340</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[CTY TNHH MTV SOXES VIET NAM]]></tenNMUA><mstNMUA>0311161271</mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_68"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000341</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[CONG TY TNHH HAVAS MEDIA VIET NAM]]></tenNMUA><mstNMUA>0309942510</mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_69"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000342</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[NGUYEN HOANG PHONG]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_70"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000343</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[NGUYEN ANH TUAN]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_71"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000344</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[NGUYEN HOANG PHONG]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_72"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000345</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[BUI THI THANH]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_73"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000346</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[CONG TY CP EWAY]]></tenNMUA><mstNMUA>0103791995</mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_74"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000347</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[HA MINH HIEU]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_75"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000348</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[PHAN THI NGA]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_76"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000349</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[CTY TNHH MTV SOXES VIET NAM]]></tenNMUA><mstNMUA>0311161271</mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_77"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000350</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[CONG TY TNHH HAVAS MEDIA VIET NAM]]></tenNMUA><mstNMUA>0309942510</mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_78"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000351</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[NGUYEN HOANG PHONG]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_79"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000352</soHDon><ngayPHanh>02/06/2015</ngayPHanh><tenNMUA><![CDATA[NGUYEN ANH TUAN]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>0</dsoBanChuaThue><thueGTGT>0</thueGTGT><ghiChu><![CDATA[Hóa đơn xóa bỏ]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_80"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000353</soHDon><ngayPHanh>03/06/2015</ngayPHanh><tenNMUA><![CDATA[GIÁP MẠNH CƯỜNG]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>235347</dsoBanChuaThue><thueGTGT>23536</thueGTGT><ghiChu><![CDATA[]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_81"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000354</soHDon><ngayPHanh>03/06/2015</ngayPHanh><tenNMUA><![CDATA[NGUYỄN VĂN THĂNG]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>66949</dsoBanChuaThue><thueGTGT>6695</thueGTGT><ghiChu><![CDATA[Điều chỉnh thông tin]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_82"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000355</soHDon><ngayPHanh>03/06/2015</ngayPHanh><tenNMUA><![CDATA[mai hoàng]]></tenNMUA><mstNMUA>0105762069001</mstNMUA><matHang></matHang><dsoBanChuaThue>350000</dsoBanChuaThue><thueGTGT>35000</thueGTGT><ghiChu><![CDATA[]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_83"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000356</soHDon><ngayPHanh>03/06/2015</ngayPHanh><tenNMUA><![CDATA[NGUYEN PHUONG THAO]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>1080000</dsoBanChuaThue><thueGTGT>108000</thueGTGT><ghiChu><![CDATA[]]></ghiChu></HDonBRa>
+<HDonBRa id="ID_84"><kyHieuMauHDon></kyHieuMauHDon><kyHieuHDon></kyHieuHDon><soHDon>0000357</soHDon><ngayPHanh>03/06/2015</ngayPHanh><tenNMUA><![CDATA[NGUYEN PHUONG THAO]]></tenNMUA><mstNMUA></mstNMUA><matHang></matHang><dsoBanChuaThue>338334</dsoBanChuaThue><thueGTGT>33833</thueGTGT><ghiChu><![CDATA[]]></ghiChu></HDonBRa>
+</ChiTietHHDVThue0>
+<tongDThuBRaThue0>4728135</tongDThuBRaThue0><tongThueBRaThue0>472814</tongThueBRaThue0>
+</HHDVThue0>
+<HHDVThue5>
+<ChiTietHHDVThue5>
+</ChiTietHHDVThue5>
+<tongDThuBRaThue5>0</tongDThuBRaThue5><tongThueBRaThue5>0</tongThueBRaThue5>
+</HHDVThue5>
+<HHDVThue10>
+<ChiTietHHDVThue10>
+</ChiTietHHDVThue10>
+<tongDThuBRaThue10>0</tongDThuBRaThue10><tongThueBRaThue10>0</tongThueBRaThue10>
+</HHDVThue10>
+<tongDThuBRa>4728135</tongDThuBRa><tongDThuBRaChiuThue>0</tongDThuBRaChiuThue><tongThueBRa>472814</tongThueBRa>
+</PL01_1_GTGT>
+</PLuc>
+</HSoKhaiThue>
+</HSoThueDTu>

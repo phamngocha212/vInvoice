@@ -1,0 +1,104 @@
+﻿#contentarea
+{
+	margin: 6px;
+}
+
+element.style
+{
+	width: 100%;
+}
+table.grid
+{	
+	color: #333333;
+	border-collapse: collapse;
+}
+table.grid th
+{
+	color: #333333;
+	background-color: #eee;
+	font-weight: bold;
+	border-right: solid 1px #fff;
+	border-bottom: solid 1px #ccc;
+	padding: 4px;
+	text-align: center;
+    font-size: 13px;
+}
+
+table.grid td
+{
+	border-bottom: 1px solid #ccc;
+	padding: 6px 4px;
+    font-size: 13px;
+}
+
+table.grid td form
+{
+	display: inline;
+}
+
+table.grid tr:hover
+{
+	background-color: #eef;
+}
+
+table.grid tr.selected td
+{
+	background-color: #ffe;
+	font-weight: bold;
+}
+
+table.grid td a
+{
+	margin-right: 5px;
+}
+
+table.grid td.center
+{
+	text-align: center;
+}
+
+table.grid td.right
+{
+	text-align: right;
+}
+
+form {
+margin:0;
+padding:0;
+}
+
+/*page*/
+.pager 
+{	
+	padding:3px;
+}
+
+.pager .disabled 
+{
+ 
+}
+
+.pager .current 
+{
+ 
+}
+
+.pager span, .pager a
+{
+	margin: 4px 3px;
+}
+
+.pager a 
+{
+	 
+}
+table.grid td {
+      color: #032580;
+}
+table.grid td {    
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+    max-width: 150px !important;
+}

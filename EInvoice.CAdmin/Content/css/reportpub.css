@@ -1,0 +1,84 @@
+
+#reported{
+	height:700px;
+	width:912px;
+	color:#333;
+	padding-right:10px;	
+	margin:20px auto;
+	font-family:"Times New Roman", Times, serif;
+	 font-size:14px !important;
+	}
+#reported h1{
+	/*font-size:1.4em;*/
+	font-size:15px !important;
+	font-weight:bold;
+	}
+#reported .input-border{
+	border:0;
+	border-bottom:1px dotted #ccc;
+	}
+#reported label{
+	font-weight:bold;}
+
+#reported table{
+	border:1px solid #d7d7d7;
+	margin-bottom:10px;
+	}
+#reported th, #reported td{
+	padding:5px;
+	vertical-align:middle;
+	border-right:1px solid #d7d7d7;
+	border-bottom:1px solid #d7d7d7;
+	}
+#reported th{
+	text-align:center;
+	}
+#agent{
+	float:right;
+	text-align:center;
+	margin-right:20px;
+	}
+#agent p{
+	margin:0;
+	}
+/* THONG BAO */
+#reported li{
+	margin-bottom:10px;
+	}
+	
+	.centert{
+	text-align:center;
+	}
+	
+	
+#reported  h2, h3, h4, h5, h6 {
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1.2em; /* Big heading look nicer with smaller line-height */
+	margin: .7em 0 .5em;
+}
+
+#reported h2 {
+font-size:15px;
+}
+#reported h3 {
+	font-size:15px;
+}
+#reported h4 {
+	/*font-size: 1.2em;*/
+	font-size:15px !important;
+	font-weight: bold;
+}
+#reported h5 {
+	/*font-size: 1em;*/
+	font-size:15px !important;
+	font-weight: bold;
+}
+#reported h6 {
+	/*font-size: 1em;*/
+	font-size:15px !important;
+	font-style: italic;
+}
+
+	
+	

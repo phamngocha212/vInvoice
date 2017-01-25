@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="VAT_Invoice"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:simpleType name="integer-or-empty">
+    <xs:union memberTypes="xs:integer empty-string" />
+  </xs:simpleType>
+  <xs:simpleType name="float-or-empty">
+    <xs:union memberTypes="xs:float empty-string" />
+  </xs:simpleType>
+  <xs:simpleType name="empty-string">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:element name="Invoices"/>
+  <xs:element name="Inv">
+    <xs:complexType>
+      <xs:sequence>        
+        <xs:element name="key" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>
+        <xs:element name="Invoice" minOccurs="1" maxOccurs="1">
+          <xs:complexType>
+            <xs:all>
+			  <xs:element name="InvPattern" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>
+			  <xs:element name="InvSerial" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>
+			  <xs:element name="InvNo" type="xs:string" nillable="true" minOccurs="0"/>
+			  <xs:element name="CreateBy" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>			  			  
+              <xs:element name="CusCode" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="CusName" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="Buyer" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>
+			 
+              <xs:element name="CusAddress" type="xs:string" nillable="true" minOccurs="1" maxOccurs="1"/>
+              <xs:element name="CusPhone" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="CusTaxCode" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="PaymentMethod" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>              
+			  <xs:element name="KindOfService" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="BankAccount" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="BankName" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="Products" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Product" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:all>
+                          <xs:element name="Code" type="xs:string" minOccurs="0"/>
+                          <xs:element name="ProdName" type="xs:string" />
+                          <xs:element name="ProdUnit" type="xs:string" minOccurs="0"/>
+                          <xs:element name="ProdQuantity" type="float-or-empty" minOccurs="0"/>
+                          <xs:element name="ProdPrice" type="xs:string" minOccurs="0"/>
+                          <xs:element name="Amount" type="xs:string" />
+                          <xs:element name="Remark" type="xs:string" minOccurs="0"/>
+						  <xs:element name="Total" type="xs:string" minOccurs="0"/>
+                          <xs:element name="VATRate" type="xs:string" minOccurs="0"/>
+                          <xs:element name="VATAmount" type="xs:string" minOccurs="0"/>
+                        </xs:all>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+			 
+			  <xs:element name="Discount" type="xs:string" nillable="true" minOccurs="0"/>
+              <xs:element name="Total" type="xs:string" nillable="true" minOccurs="1" maxOccurs="1"/>
+              <xs:element name="DiscountAmount" type="float-or-empty" nillable="true" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="VATRate" type="float-or-empty" nillable="true" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="VATAmount" type="float-or-empty" nillable="true" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="Amount" type="xs:string" nillable="true" minOccurs="1" maxOccurs="1"/>
+              <xs:element name="AmountInWords" type="xs:string" nillable="true" minOccurs="1" maxOccurs="1"/>
+              <xs:element name="Extra" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="ArisingDate" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="PaymentStatus" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>
+
+              <xs:element name="Note" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="ComName" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="ComAddress" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="ComTaxCode" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="ComFax" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="ResourceCode" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>
+              
+			  <xs:element name="CusCom" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>
+			  <xs:element name="OrderNo" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="OrderDate" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="GrossValue" type="float-or-empty" nillable="true" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="GrossValue0" type="float-or-empty" nillable="true" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="VatAmount0" type="float-or-empty" nillable="true" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="GrossValue5" type="float-or-empty" nillable="true" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="VatAmount5" type="float-or-empty" nillable="true" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="GrossValue10" type="float-or-empty" nillable="true" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="VatAmount10" type="float-or-empty" nillable="true" minOccurs="0" maxOccurs="1"/>
+			  			  
+			  <xs:element name="Rebate" type="float-or-empty" nillable="true" minOccurs="0" maxOccurs="1"/>
+			  <xs:element name="DeliverNo" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>
+			  <xs:element name="ProductOrderNo" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>
+			  <xs:element name="DeliverDate" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>
+			  <xs:element name="ShipName" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>
+			  <xs:element name="ShipAddress" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>
+			  <xs:element name="ShipPhone" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>
+			  <xs:element name="Remark" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>
+			  <xs:element name="TransportName" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>
+			  <xs:element name="TransportRoute" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>
+			  <xs:element name="VehicleId" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>
+			  <xs:element name="VehicleName" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>
+			  <xs:element name="VehiclePhone" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>
+			  <xs:element name="GrossWeight" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>
+		      <xs:element name="InvoiceType" type="xs:string" nillable="true" minOccurs="0"/>
+			  <xs:element name="MaBA" type="xs:string" nillable="true" minOccurs="0"/>
+		      <xs:element name="SoPT" type="xs:string" nillable="true" minOccurs="0"/>
+		   	  <xs:element name="Otherfees" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>
+			  <xs:element name="Trans" type="xs:string" nillable="true" minOccurs="0"/>
+			  <xs:element name="SO" type="xs:string" nillable="true" minOccurs="0"/>
+			  <xs:element name="DO" type="xs:string" nillable="true" minOccurs="0"/>
+			  <xs:element name="Currency" type="xs:string" nillable="true" minOccurs="0"/>
+			  <xs:element name="ExchangeRate" type="xs:string" nillable="true" minOccurs="0"/>
+			  <xs:element name="FeeType" type="xs:string" nillable="true" minOccurs="0"/>	
+
+			  <xs:element name="Deposit" type="float-or-empty" nillable="true" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="KCBAmount" type="float-or-empty" nillable="true" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="PatientPaid" type="float-or-empty" nillable="true" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="PatientReceviced" type="float-or-empty" nillable="true" minOccurs="0" maxOccurs="1"/>
+				
+			</xs:all>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

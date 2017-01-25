@@ -1,0 +1,178 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="MediaCenter, Template, eCommerce">
+    <meta name="robots" content="all">
+    <title>
+        <asp:ContentPlaceHolder ID="TitleContent" runat="server" />
+    </title>
+    <link rel="stylesheet" href="/Content/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="/Content/css/font-awesome.min.css">
+
+    <!-- Theme style -->
+    <link rel="stylesheet" href="/Content/dist/css/AdminLTE.min.css">
+    <link rel="stylesheet" href="/Content/dist/css/skins/_all-skins.min.css">
+    <!-- Date Picker -->
+    <link rel="stylesheet" href="/Content/plugins/datepicker/datepicker3.css">
+    <!-- Daterange picker -->
+    <link rel="stylesheet" href="/Content/plugins/daterangepicker/daterangepicker-bs3.css">
+    <!-- Icons/Glyphs -->
+
+    <link href="/Content/css/jquery-ui.min.css" rel="stylesheet" />
+    <link href="/Content/css/alertify.core.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/Content/custom/sweetalert.css">
+    <link rel="stylesheet" href="/Content/custom/style.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/Content/favicon.ico">
+    <script src="/Content/plugins/jQuery/jQuery-2.1.4.min.js"></script>
+    <!-- jQuery UI 1.11.4 -->
+    <script src="/Content/plugins/jQueryUI/jquery-ui.min.js"></script>
+
+    <script type="text/javascript" src="/Content/js/jquery.blockUI.js"></script>
+    <script src="/Content/js/jquery.bpopup.min.js"></script>
+    <script src="/Content/js/alertify.min.js"></script>
+    <script src="/Content/js/FXUtils.js"></script>
+    <script src="/Content/js/menu-aim.js"></script>
+    <!-- HTML5 elements and media queries Support for IE8 : HTML5 shim and Respond.js -->
+    <!--[if lt IE 9]>
+			<script src="/Content/js/html5shiv.js"></script>
+			<script src="/Content/js/respond.min.js"></script>
+		<![endif]-->
+</head>
+<body class="hold-transition skin-green-light sidebar-mini sidebar-collapse layout-top-nav">
+    <div class="wrapper">
+        <header class="main-header">
+            <%Html.RenderAction("MenuTop", "Company", new { position = 1 }); %>
+        </header>
+        <aside class="main-sidebar">
+            <%Html.RenderAction("MenuByComp", "Company"); %>
+        </aside>
+
+        <div class="content-wrapper">
+
+            <!-- Main content -->
+            <section class="content">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+
+            </section>
+            <!-- /.content -->
+        </div>
+
+        <footer id="footer" class="main-footer">
+            &copy; <a href="index.html">VietSoftWare</a> - all rights reserved                            
+        </footer>
+
+    </div>
+    <%Html.RenderPartial("Messages", ViewData["Messages"]); %>
+    <!-- Bootstrap 3.3.5 -->
+    <script src="/Content/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/Content/js/bootstrap-hover-dropdown.min.js"></script>
+    <!-- Morris.js charts -->
+    <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+    <script>
+        $.widget.bridge('uibutton', $.ui.button);
+    </script>
+    <script src="/Content/plugins/daterangepicker/daterangepicker.js"></script>
+    <!-- datepicker -->
+    <script src="/Content/plugins/datepicker/bootstrap-datepicker.js"></script>
+
+    <!-- FastClick -->
+    <script src="/Content/plugins/fastclick/fastclick.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="/Content/dist/js/app.js"></script>
+    <script src="/Content/custom/sweetalert.min.js"></script>
+    <script src="/Content/js/invoicecommon.js"></script>
+    <script type="text/javascript">
+        function checkTextMaxLength(textBox) {
+            var utf8codeUnits = 0;
+            var cChar = 0;
+            var mLen = textBox.getAttribute("maxlength");
+            if (mLen == null || mLen == undefined) {
+                textBox.value = textBox.value;
+            }
+            else {
+                var maxLength = parseInt(mLen);
+                while (utf8codeUnits < maxLength) {
+                    var c = textBox.value.charCodeAt(cChar);
+
+                    if (c < 128) {
+                        utf8codeUnits++;
+                    }
+                    else if ((c > 127) && (c < 2048)) {
+                        utf8codeUnits = utf8codeUnits + 2;
+                    }
+                    else {
+                        utf8codeUnits = utf8codeUnits + 3;
+                    }
+
+                    if (utf8codeUnits <= maxLength) {
+                        cChar++;
+                    }
+                }
+                textBox.value = textBox.value.substring(0, cChar);
+            }
+        }
+        $(document).ready(function () {
+            $("input[type='text']").blur(function () {
+                checkTextMaxLength(this);
+            });
+
+            $("textarea").blur(function () {
+                checkTextMaxLength(this);
+            });
+
+            $(".onlynum").keypress(function (event) {
+                var keypressed = null;
+                if (window.event) { //IE
+                    keypressed = window.event.keyCode;
+                    if (keypressed < 48 || keypressed > 57) {
+                        return false;
+                    }
+                }
+                else {
+                    keypressed = e.which; //NON-IE, Standard
+                    if (keypressed < 48 || keypressed > 57) {
+                        if (e.charCode == 0) {// không phải kí tự thì vẫn ok           
+                            return;
+                        }
+                        return false;
+                    }
+                }
+            });
+
+            //Chỉ cho nhập chữ và số
+            $(".textandnum").keypress(function (event) {
+                var keypressed = null;
+                if (window.event) { //IE
+                    keypressed = window.event.keyCode;
+                    if (keypressed < 48
+                        || (keypressed > 57 && keypressed < 65)
+                        || (keypressed > 90 && keypressed < 97
+                        || keypressed > 122)) {
+                        return false;
+                    }
+                }
+                else {
+                    keypressed = e.which; //NON-IE, Standard
+                    if (keypressed < 48
+                        || (keypressed > 57 && keypressed < 65)
+                        || (keypressed > 90 && keypressed < 97
+                        || keypressed > 122)) {
+                        if (e.charCode == 0) {// không phải kí tự thì vẫn ok           
+                            return;
+                        }
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>

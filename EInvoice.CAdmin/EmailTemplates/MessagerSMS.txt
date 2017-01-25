@@ -1,0 +1,6 @@
+﻿[subject]
+$phone:$site 
+[/subject]
+[body]
+TB cuoc HDDT cua KH la $InvValue. Chi tiet xem tai $url
+[/body]

@@ -1,0 +1,2034 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdjReInv_ChooseSerial" xml:space="preserve">
+    <value>Chọn ký hiệu mẫu</value>
+  </data>
+  <data name="AdjReInv_InvalidTaxCode" xml:space="preserve">
+    <value>MST chưa đúng</value>
+  </data>
+  <data name="AdjReInv_LblDetail" xml:space="preserve">
+    <value>Chi tiết</value>
+  </data>
+  <data name="AdjReInv_LblNumberInv" xml:space="preserve">
+    <value>Số hóa đơn</value>
+  </data>
+  <data name="AdjReInv_LblListReInv" xml:space="preserve">
+    <value>Danh sách hóa đơn thay thế</value>
+  </data>
+  <data name="AdjReInv_LblListReplacedInv" xml:space="preserve">
+    <value>Danh sách hóa đơn bị thay thế</value>
+  </data>
+  <data name="AdjReInv_LblNo" xml:space="preserve">
+    <value>STT</value>
+  </data>
+  <data name="AdjReInv_LblPattern" xml:space="preserve">
+    <value>Mẫu số</value>
+  </data>
+  <data name="AdjReInv_LblSerial" xml:space="preserve">
+    <value>Ký hiệu</value>
+  </data>
+  <data name="AdjReInv_LblStatus" xml:space="preserve">
+    <value>Trạng thái </value>
+  </data>
+  <data name="AdjReInv_LblTitleAdjAndReplaceInv" xml:space="preserve">
+    <value>Hóa đơn thay thế, điều chỉnh hóa đơn.</value>
+  </data>
+  <data name="AdjReInv_Pattern" xml:space="preserve">
+    <value>Mẫu hóa đơn</value>
+  </data>
+  <data name="AdjReInv_TitleAdjAndReInv" xml:space="preserve">
+    <value>Danh mục thay thế, sửa hóa đơn</value>
+  </data>
+  <data name="BtnBack" xml:space="preserve">
+    <value>Quay lại</value>
+  </data>
+  <data name="BtnCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="BtnCreate" xml:space="preserve">
+    <value>Tạo mới</value>
+  </data>
+  <data name="BtnDownExcel" xml:space="preserve">
+    <value>Kết xuất Excel</value>
+  </data>
+  <data name="BtnDownPdf" xml:space="preserve">
+    <value>Kết xuất Pdf</value>
+  </data>
+  <data name="BtnEdit" xml:space="preserve">
+    <value>Chỉnh sửa</value>
+  </data>
+  <data name="BtnPayInv" xml:space="preserve">
+    <value>Đối soát hóa đơn thanh toán</value>
+  </data>
+  <data name="BtnPublishLauchInv" xml:space="preserve">
+    <value>Phát hành hóa đơn theo lô</value>
+  </data>
+  <data name="BtnReport" xml:space="preserve">
+    <value>Báo cáo</value>
+  </data>
+  <data name="BtnReportQuick" xml:space="preserve">
+    <value>Báo cáo nhanh</value>
+  </data>
+  <data name="BtnSave" xml:space="preserve">
+    <value>Lưu</value>
+  </data>
+  <data name="BtnSaveAndCreate" xml:space="preserve">
+    <value>Lưu và tạo mới</value>
+  </data>
+  <data name="BtnSeach" xml:space="preserve">
+    <value>Tìm kiếm</value>
+  </data>
+  <data name="Cat_lblDescription" xml:space="preserve">
+    <value>Mô tả</value>
+  </data>
+  <data name="Cat_LblInvCatInfo" xml:space="preserve">
+    <value>Thông tin về loại hóa đơn</value>
+  </data>
+  <data name="Cat_LblName" xml:space="preserve">
+    <value>Tên loại hóa đơn</value>
+  </data>
+  <data name="Cat_lblNo" xml:space="preserve">
+    <value>Số tt</value>
+  </data>
+  <data name="Cat_LblTitle" xml:space="preserve">
+    <value>Danh mục loại hóa đơn</value>
+  </data>
+  <data name="Cat_ReqName" xml:space="preserve">
+    <value>Nhập tên loại hóa đơn</value>
+  </data>
+  <data name="Cat_ReqPattern" xml:space="preserve">
+    <value>Nhập mẫu số hóa đơn</value>
+  </data>
+  <data name="Cert_LblExpiryDate" xml:space="preserve">
+    <value>Ngày hết hạn</value>
+  </data>
+  <data name="Cert_LblExpiryDate1" xml:space="preserve">
+    <value>Quản lý chứng thư</value>
+  </data>
+  <data name="Cert_lblNo" xml:space="preserve">
+    <value>Số tt</value>
+  </data>
+  <data name="Cert_LblOrgName" xml:space="preserve">
+    <value>Tên tổ chức sở hữu</value>
+  </data>
+  <data name="Cert_lblOwnCA" xml:space="preserve">
+    <value>Tên chủ sở hữu</value>
+  </data>
+  <data name="Cert_LblSerialCert" xml:space="preserve">
+    <value>SerialCert</value>
+  </data>
+  <data name="Cert_LblStatus" xml:space="preserve">
+    <value>Trạng thái</value>
+  </data>
+  <data name="Cert_lblUnusedStatus" xml:space="preserve">
+    <value>Trạng thái chưa sử dụng</value>
+  </data>
+  <data name="Cert_lblUsingStatus" xml:space="preserve">
+    <value>Trạng thái đang sử dụng</value>
+  </data>
+  <data name="Com_LblAddress" xml:space="preserve">
+    <value>Địa chỉ</value>
+  </data>
+  <data name="Com_LblBankAccount" xml:space="preserve">
+    <value>Chủ tài khoản</value>
+  </data>
+  <data name="Com_LblBankName" xml:space="preserve">
+    <value>Tên ngân hàng</value>
+  </data>
+  <data name="Com_LblBankNumber" xml:space="preserve">
+    <value>Số tài khoản</value>
+  </data>
+  <data name="Com_LblCheckTaxCode" xml:space="preserve">
+    <value>Kiểm tra MST</value>
+  </data>
+  <data name="Com_LblContactPerson" xml:space="preserve">
+    <value>Người liên hệ</value>
+  </data>
+  <data name="Com_LblDescription" xml:space="preserve">
+    <value>Mô tả</value>
+  </data>
+  <data name="Com_LblEMail" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Com_LblFax" xml:space="preserve">
+    <value>Số Fax</value>
+  </data>
+  <data name="Com_LblName" xml:space="preserve">
+    <value>Tên công ty</value>
+  </data>
+  <data name="Com_LblPhone" xml:space="preserve">
+    <value>Điện thoại</value>
+  </data>
+  <data name="Com_lblRepresentPerson" xml:space="preserve">
+    <value>Người đại diện pháp luật</value>
+  </data>
+  <data name="Com_LblSignatureImage" xml:space="preserve">
+    <value>Ảnh chữ ký</value>
+  </data>
+  <data name="Com_LblTaxCode" xml:space="preserve">
+    <value>Mã số thuế của công ty</value>
+  </data>
+  <data name="Com_LblTaxName" xml:space="preserve">
+    <value>Tên cơ quan thuế </value>
+  </data>
+  <data name="Com_LblTitle" xml:space="preserve">
+    <value>CÔNG TY PHÁT HÀNH HÓA ĐƠN</value>
+  </data>
+  <data name="Com_LblTitleEdit" xml:space="preserve">
+    <value>Sửa thông tin công ty phát hành hóa đơn</value>
+  </data>
+  <data name="Com_ReqAddress" xml:space="preserve">
+    <value>Nhập địa chỉ đơn vị</value>
+  </data>
+  <data name="Com_ReqComName" xml:space="preserve">
+    <value>Nhập tên đơn vị</value>
+  </data>
+  <data name="Com_ReqRepPerson" xml:space="preserve">
+    <value>Nhập người đại diện pháp luật</value>
+  </data>
+  <data name="Com_ReqTaxCode" xml:space="preserve">
+    <value>Nhập mã số thuế đơn vị</value>
+  </data>
+  <data name="ConSr_btnToProveOrigin" xml:space="preserve">
+    <value>Chuyển đổi chứng minh nguồn gốc</value>
+  </data>
+  <data name="ConSr_lblConvertedInv" xml:space="preserve">
+    <value>Hóa đơn đã chuyển đổi</value>
+  </data>
+  <data name="ConSr_lblNotYetConvert" xml:space="preserve">
+    <value>Hóa đơn chưa chuyển đổi </value>
+  </data>
+  <data name="ConSt_BtnOrigins" xml:space="preserve">
+    <value>Chuyển đổi lưu trữ </value>
+  </data>
+  <data name="Conv_LblChoose" xml:space="preserve">
+    <value>Chọn</value>
+  </data>
+  <data name="Conv_LblCusName" xml:space="preserve">
+    <value>Tên khách hàng</value>
+  </data>
+  <data name="Conv_LblFromDate" xml:space="preserve">
+    <value>Từ ngày HD</value>
+  </data>
+  <data name="Conv_LblInvNo" xml:space="preserve">
+    <value>Số hóa đơn</value>
+  </data>
+  <data name="Conv_lblNo" xml:space="preserve">
+    <value>Stt</value>
+  </data>
+  <data name="Conv_LblPattern" xml:space="preserve">
+    <value>Mẫu số</value>
+  </data>
+  <data name="Conv_LblPubDate" xml:space="preserve">
+    <value>Ngày xuất</value>
+  </data>
+  <data name="Conv_LblSerial" xml:space="preserve">
+    <value>Ký hiệu</value>
+  </data>
+  <data name="Conv_LblStatusConv" xml:space="preserve">
+    <value>Trạng thái chuyển đổi </value>
+  </data>
+  <data name="Conv_LblToDate" xml:space="preserve">
+    <value>Đến ngày HD</value>
+  </data>
+  <data name="Conv_Title" xml:space="preserve">
+    <value>Danh mục chuyển đổi hóa đơn</value>
+  </data>
+  <data name="Cus_BankAccount" xml:space="preserve">
+    <value>Tên tài khoản </value>
+  </data>
+  <data name="Cus_LblAccountExist" xml:space="preserve">
+    <value>Tài khoản khách hàng </value>
+  </data>
+  <data name="Cus_lblAccountingCus" xml:space="preserve">
+    <value>Khách hàng là đơn vị kế toán</value>
+  </data>
+  <data name="Cus_LblAddress" xml:space="preserve">
+    <value>Địa chỉ khách hàng</value>
+  </data>
+  <data name="Cus_LblBankAccont" xml:space="preserve">
+    <value>Chủ tài khoản</value>
+  </data>
+  <data name="Cus_LblBankName" xml:space="preserve">
+    <value>Tên ngân hàng</value>
+  </data>
+  <data name="Cus_LblBankNumber" xml:space="preserve">
+    <value>Số tài khoản ngân hàng</value>
+  </data>
+  <data name="Cus_LblCheckTaxCode" xml:space="preserve">
+    <value>Kiểm tra mã số thuế</value>
+  </data>
+  <data name="Cus_LblContactPerson" xml:space="preserve">
+    <value>Người đại diện pháp luật(KH là doanh nghiệp)</value>
+  </data>
+  <data name="Cus_LblCusCode" xml:space="preserve">
+    <value>Mã khách hàng</value>
+  </data>
+  <data name="Cus_LblCusName" xml:space="preserve">
+    <value>Tên khách hàng</value>
+  </data>
+  <data name="Cus_LblDescription" xml:space="preserve">
+    <value>Mô tả </value>
+  </data>
+  <data name="Cus_LblEmail" xml:space="preserve">
+    <value>Mail khách hàng</value>
+  </data>
+  <data name="Cus_lblEnterCusInfo" xml:space="preserve">
+    <value>Nhập thông tin khách hàng</value>
+  </data>
+  <data name="Cus_LblGetCert" xml:space="preserve">
+    <value>Get Certificates</value>
+  </data>
+  <data name="Cus_LblInfomation" xml:space="preserve">
+    <value>Thông tin về khách hàng</value>
+  </data>
+  <data name="Cus_lblNo" xml:space="preserve">
+    <value>Stt</value>
+  </data>
+  <data name="Cus_lblNotAccountingCus" xml:space="preserve">
+    <value>Khách hàng không phải là đơn vị kế toán</value>
+  </data>
+  <data name="Cus_LblPhone" xml:space="preserve">
+    <value>Số điện thoại khách hàng</value>
+  </data>
+  <data name="Cus_LblRepPerson" xml:space="preserve">
+    <value>Người liên hệ</value>
+  </data>
+  <data name="Cus_LblTaxCode" xml:space="preserve">
+    <value>Mã cơ quan thuế (KH là Doanh nghiệp)</value>
+  </data>
+  <data name="Cus_lblTitle" xml:space="preserve">
+    <value>Quản lý khách hàng</value>
+  </data>
+  <data name="Cus_lblTitleEdit" xml:space="preserve">
+    <value>Sửa thông tin khách hàng</value>
+  </data>
+  <data name="Cus_LblType" xml:space="preserve">
+    <value>Kiểu khách hàng</value>
+  </data>
+  <data name="Cus_MesConfirmDel" xml:space="preserve">
+    <value> Bạn có chắc chắn xóa khách hàng này không.</value>
+  </data>
+  <data name="Cus_ReqAccount" xml:space="preserve">
+    <value>Nhập tài khoản cho khách hàng</value>
+  </data>
+  <data name="Cus_ReqAddress" xml:space="preserve">
+    <value>Nhập địa chỉ khách hàng</value>
+  </data>
+  <data name="Cus_ReqCert" xml:space="preserve">
+    <value>Phải chọn chứng thư số</value>
+  </data>
+  <data name="Cus_ReqCode" xml:space="preserve">
+    <value>Nhập mã khách hàng</value>
+  </data>
+  <data name="Cus_ReqEmail" xml:space="preserve">
+    <value>Nhập mail cho khách hàng</value>
+  </data>
+  <data name="Cus_ReqInvStatus" xml:space="preserve">
+    <value>Nhập tình trạng thái hóa đơn</value>
+  </data>
+  <data name="Cus_ReqName" xml:space="preserve">
+    <value>Nhập tên khách hàng</value>
+  </data>
+  <data name="Cus_ReqTaxCode" xml:space="preserve">
+    <value>Nhập mã số thuế</value>
+  </data>
+  <data name="Cus_SelectInvStatus" xml:space="preserve">
+    <value>Chọn tình trạng hóa đơn</value>
+  </data>
+  <data name="Cus_SerialCert" xml:space="preserve">
+    <value>Serial Certificate</value>
+  </data>
+  <data name="Dec_LblAddress" xml:space="preserve">
+    <value>Địa chỉ</value>
+  </data>
+  <data name="Dec_LblArticle1" xml:space="preserve">
+    <value>Điều 1</value>
+  </data>
+  <data name="Dec_LblArticle2" xml:space="preserve">
+    <value>Điều 2</value>
+  </data>
+  <data name="Dec_LblArticle3" xml:space="preserve">
+    <value>Điều 3</value>
+  </data>
+  <data name="Dec_LblArticle4" xml:space="preserve">
+    <value>Điều 4</value>
+  </data>
+  <data name="Dec_LblArticle5" xml:space="preserve">
+    <value>Điều 5</value>
+  </data>
+  <data name="Dec_LblChoosePattern" xml:space="preserve">
+    <value>Chọn mẫu hóa đơn</value>
+  </data>
+  <data name="Dec_LblCity" xml:space="preserve">
+    <value>Thành phố</value>
+  </data>
+  <data name="Dec_LblComName" xml:space="preserve">
+    <value>Tên đơn vị chủ quản</value>
+  </data>
+  <data name="Dec_LblDecisionTitle" xml:space="preserve">
+    <value>Quyết định phát hành hóa đơn điện tử</value>
+  </data>
+  <data name="Dec_LblDirector" xml:space="preserve">
+    <value>Giám đốc</value>
+  </data>
+  <data name="Dec_LblEffectDate" xml:space="preserve">
+    <value>Quyết định có hiệu lực từ ngày</value>
+  </data>
+  <data name="Dec_lblInvDefaultName" xml:space="preserve">
+    <value>Tên mặc định của hóa đơn</value>
+  </data>
+  <data name="Dec_LblListInvType" xml:space="preserve">
+    <value>Các loại hóa đơn</value>
+  </data>
+  <data name="Dec_LblNumberDecisions" xml:space="preserve">
+    <value>Số quyết định</value>
+  </data>
+  <data name="Dec_LblPurpose" xml:space="preserve">
+    <value>Mục đích sử dụng</value>
+  </data>
+  <data name="Dec_LblRequester" xml:space="preserve">
+    <value>Người đề nghị</value>
+  </data>
+  <data name="Dec_LblResponsibility" xml:space="preserve">
+    <value>Trách nhiệm từng bộ phận</value>
+  </data>
+  <data name="Dec_LblSoftwareApp" xml:space="preserve">
+    <value>Phần mềm ứng dụng</value>
+  </data>
+  <data name="Dec_LblStatus" xml:space="preserve">
+    <value>Trạng thái quyết định</value>
+  </data>
+  <data name="Dec_LblSystemDevice" xml:space="preserve">
+    <value>Hệ thống thiết bị</value>
+  </data>
+  <data name="Dec_LblTaxCode" xml:space="preserve">
+    <value>Mã số thuế</value>
+  </data>
+  <data name="Dec_LblTechDepartment" xml:space="preserve">
+    <value>Bộ phận kỹ thuật hoặc tên nhà cung ứng dịch vụ chịu trách nhiệm về mặt kỹ thuật hóa đơn điện tử, phần mềm ứng dụng</value>
+  </data>
+  <data name="Dec_LblTitleListDec" xml:space="preserve">
+    <value>Quyết định phát hành hóa đơn</value>
+  </data>
+  <data name="Dec_ReqArticle2" xml:space="preserve">
+    <value>Nhập điều 2</value>
+  </data>
+  <data name="Dec_ReqComName" xml:space="preserve">
+    <value>Nhập tên đơn vị</value>
+  </data>
+  <data name="Dec_ReqDecisionNumber" xml:space="preserve">
+    <value>Nhập số quyết định</value>
+  </data>
+  <data name="Dec_ReqPattern" xml:space="preserve">
+    <value>Nhập mẫu số</value>
+  </data>
+  <data name="Dec_ReqPurpose" xml:space="preserve">
+    <value>Nhập mục đích</value>
+  </data>
+  <data name="Dec_ReqRegPattern" xml:space="preserve">
+    <value>Cần đăng ký mẫu hóa đơn</value>
+  </data>
+  <data name="Dec_ReqRequester" xml:space="preserve">
+    <value>Nhập tên người đề nghị</value>
+  </data>
+  <data name="Dec_ReqTaxCode" xml:space="preserve">
+    <value>Nhập mã số thuế</value>
+  </data>
+  <data name="Dec_TxtAcceptDecision" xml:space="preserve">
+    <value>Quyết định được chấp nhận</value>
+  </data>
+  <data name="Dec_TxtNewDecision" xml:space="preserve">
+    <value>Quyết định mới lập</value>
+  </data>
+  <data name="Dec_TxtSendDecision" xml:space="preserve">
+    <value>Quyết định đã gửi</value>
+  </data>
+  <data name="InvAdj_BtnReplace" xml:space="preserve">
+    <value>Thay thế hóa đơn</value>
+  </data>
+  <data name="InvAdj_LblSeach" xml:space="preserve">
+    <value>TÌM KIẾM HÓA ĐƠN ĐIỀU CHỈNH</value>
+  </data>
+  <data name="InvAdj_ReqChooseInvNo" xml:space="preserve">
+    <value>Chọn số hóa đơn</value>
+  </data>
+  <data name="InvAdj_ReqChoosePattern" xml:space="preserve">
+    <value>Chọn mẫu hóa đơn</value>
+  </data>
+  <data name="InvAdj_ReqChooseSerial" xml:space="preserve">
+    <value>Chọn ký hiệu hóa đơn</value>
+  </data>
+  <data name="InvAdj_ReqToDateMustGreaterStartDate" xml:space="preserve">
+    <value>Ngày đến phải lớn hơn ngày bắt đầu</value>
+  </data>
+  <data name="InvAdj_TxtSelect" xml:space="preserve">
+    <value>Select One</value>
+  </data>
+  <data name="Key_LblGetCert" xml:space="preserve">
+    <value>Lấy chứng thư</value>
+  </data>
+  <data name="Key_LblKeyStore" xml:space="preserve">
+    <value>KeyStore</value>
+  </data>
+  <data name="Key_LblKeyStore1" xml:space="preserve">
+    <value>KeyStore</value>
+  </data>
+  <data name="Key_LblKeyStoreInfo" xml:space="preserve">
+    <value>Thông tin KeyStore</value>
+  </data>
+  <data name="Key_LblKeyStoreType" xml:space="preserve">
+    <value>Loại keyStore</value>
+  </data>
+  <data name="Key_LblKeyStoreType1" xml:space="preserve">
+    <value>Loại keyStore</value>
+  </data>
+  <data name="Key_LblPath" xml:space="preserve">
+    <value>Đường dẫn</value>
+  </data>
+  <data name="Key_LblSerial" xml:space="preserve">
+    <value>Số Serial</value>
+  </data>
+  <data name="Key_PassWord" xml:space="preserve">
+    <value>Mật khẩu</value>
+  </data>
+  <data name="Key_ReqChooseTypeKey" xml:space="preserve">
+    <value>Chọn kiểu keystore</value>
+  </data>
+  <data name="Key_ReqCodeSecurity" xml:space="preserve">
+    <value>Nhập mã bảo vệ</value>
+  </data>
+  <data name="Key_ReqKeyDes" xml:space="preserve">
+    <value>Nhập mô tả cho khóa</value>
+  </data>
+  <data name="LblDelete" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="LblDetail" xml:space="preserve">
+    <value>Chi tiết</value>
+  </data>
+  <data name="LblEdit" xml:space="preserve">
+    <value>Sửa </value>
+  </data>
+  <data name="lblNo" xml:space="preserve">
+    <value>Stt</value>
+  </data>
+  <data name="MInv_Amount" xml:space="preserve">
+    <value>Tổng cộng tiền thanh toán</value>
+  </data>
+  <data name="MInv_Billon" xml:space="preserve">
+    <value>Tỉ</value>
+  </data>
+  <data name="MInv_Eight" xml:space="preserve">
+    <value>Tám</value>
+  </data>
+  <data name="MInv_Five" xml:space="preserve">
+    <value>Năm</value>
+  </data>
+  <data name="MInv_Four" xml:space="preserve">
+    <value>Bốn</value>
+  </data>
+  <data name="MInv_hundred" xml:space="preserve">
+    <value>Trăm</value>
+  </data>
+  <data name="MInv_LblAddress" xml:space="preserve">
+    <value>Địa chỉ</value>
+  </data>
+  <data name="MInv_LblAmountInWords" xml:space="preserve">
+    <value>Số tiền viết bằng chữ</value>
+  </data>
+  <data name="MInv_LblChoose" xml:space="preserve">
+    <value>Chọn</value>
+  </data>
+  <data name="MInv_LblComName" xml:space="preserve">
+    <value>Tên đơn vị</value>
+  </data>
+  <data name="MInv_LblComTaxcode" xml:space="preserve">
+    <value>Mã số thuế</value>
+  </data>
+  <data name="MInv_LblCreateBy" xml:space="preserve">
+    <value>Người tạo</value>
+  </data>
+  <data name="MInv_LblCreateDate" xml:space="preserve">
+    <value>Ngày tạo</value>
+  </data>
+  <data name="MInv_LblCusCode" xml:space="preserve">
+    <value>Mã khách hàng</value>
+  </data>
+  <data name="MInv_LblCusName" xml:space="preserve">
+    <value>Tên khách hàng</value>
+  </data>
+  <data name="MInv_LblCusTaxCode" xml:space="preserve">
+    <value>Mã số thuế</value>
+  </data>
+  <data name="MInv_LblFromTo" xml:space="preserve">
+    <value>Từ ngày HD</value>
+  </data>
+  <data name="MInv_LblInvNo" xml:space="preserve">
+    <value>Số hóa đơn</value>
+  </data>
+  <data name="MInv_LblListProduct" xml:space="preserve">
+    <value>Danh sách sản phẩm</value>
+  </data>
+  <data name="MInv_LblMoney" xml:space="preserve">
+    <value>Thành tiền</value>
+  </data>
+  <data name="MInv_LblNameInv" xml:space="preserve">
+    <value>Tên hóa đơn</value>
+  </data>
+  <data name="MInv_LblNotMoney" xml:space="preserve">
+    <value>Không tính tiền</value>
+  </data>
+  <data name="MInv_LblPattern" xml:space="preserve">
+    <value>Mẫu số</value>
+  </data>
+  <data name="MInv_LblPayMethod" xml:space="preserve">
+    <value>Hình thức thanh toán (Kind of Payment)</value>
+  </data>
+  <data name="MInv_LblPhone" xml:space="preserve">
+    <value>Số điện thoại</value>
+  </data>
+  <data name="MInv_LblPrice" xml:space="preserve">
+    <value>Giá</value>
+  </data>
+  <data name="MInv_LblPubBy" xml:space="preserve">
+    <value>Người phát hành</value>
+  </data>
+  <data name="MInv_LblPubDate" xml:space="preserve">
+    <value>Ngày phát hành</value>
+  </data>
+  <data name="MInv_LblQuantity" xml:space="preserve">
+    <value>Số lượng</value>
+  </data>
+  <data name="MInv_LblSerial" xml:space="preserve">
+    <value>Ký hiệu</value>
+  </data>
+  <data name="MInv_LblService" xml:space="preserve">
+    <value>Dịch vụ</value>
+  </data>
+  <data name="MInv_LblStatus" xml:space="preserve">
+    <value>Trạng thái hóa đơn</value>
+  </data>
+  <data name="MInv_LblTaxCode" xml:space="preserve">
+    <value>Mã số thuế</value>
+  </data>
+  <data name="MInv_LblToDate" xml:space="preserve">
+    <value>Đến ngày HD</value>
+  </data>
+  <data name="MInv_LblTotal" xml:space="preserve">
+    <value>Tổng tiền</value>
+  </data>
+  <data name="MInv_LblUnit" xml:space="preserve">
+    <value>Đơn vị </value>
+  </data>
+  <data name="MInv_LblVATAmount" xml:space="preserve">
+    <value>Tiền thuế GTGT</value>
+  </data>
+  <data name="MInv_LblVATRate" xml:space="preserve">
+    <value>Thuế GTGT</value>
+  </data>
+  <data name="MInv_Milbil" xml:space="preserve">
+    <value>Triệu Tỉ</value>
+  </data>
+  <data name="MInv_Million" xml:space="preserve">
+    <value>Triệu</value>
+  </data>
+  <data name="MInv_NegAmount" xml:space="preserve">
+    <value>Số tiền âm</value>
+  </data>
+  <data name="MInv_Nine" xml:space="preserve">
+    <value>Chín</value>
+  </data>
+  <data name="MInv_One" xml:space="preserve">
+    <value>Một</value>
+  </data>
+  <data name="MInv_ReqAddress" xml:space="preserve">
+    <value>Nhập địa chỉ khách hàng</value>
+  </data>
+  <data name="MInv_ReqChooseInvNo" xml:space="preserve">
+    <value>Chọn hóa đơn phát hành</value>
+  </data>
+  <data name="MInv_ReqCusName" xml:space="preserve">
+    <value>Nhập tên khách hàng</value>
+  </data>
+  <data name="MInv_ReqEinvName" xml:space="preserve">
+    <value>Nhập tên hóa đơn</value>
+  </data>
+  <data name="MInv_ReqSerial" xml:space="preserve">
+    <value>Chọn ký hiệu loại hóa đơn</value>
+  </data>
+  <data name="MInv_Seven" xml:space="preserve">
+    <value>Bảy</value>
+  </data>
+  <data name="MInv_Six" xml:space="preserve">
+    <value>Sáu</value>
+  </data>
+  <data name="MInv_Thousand" xml:space="preserve">
+    <value>Nghìn</value>
+  </data>
+  <data name="MInv_Three" xml:space="preserve">
+    <value>Ba </value>
+  </data>
+  <data name="MInv_Title" xml:space="preserve">
+    <value>Danh mục hóa đơn</value>
+  </data>
+  <data name="MInv_Trillion" xml:space="preserve">
+    <value>Nghìn tỉ</value>
+  </data>
+  <data name="MInv_Two" xml:space="preserve">
+    <value>Hai</value>
+  </data>
+  <data name="Minv_txtCashingPay" xml:space="preserve">
+    <value>Thanh toán tiền mặt</value>
+  </data>
+  <data name="MInv_txtClearingPay" xml:space="preserve">
+    <value>Thanh toán bù trừ</value>
+  </data>
+  <data name="Minv_txtCreditCardPay" xml:space="preserve">
+    <value>Thanh toán thẻ tín dụng</value>
+  </data>
+  <data name="MInv_TxtNotVATRate" xml:space="preserve">
+    <value>Không thuế GTGT</value>
+  </data>
+  <data name="MInv_txtTransferPay" xml:space="preserve">
+    <value>Thanh toán chuyển khoản</value>
+  </data>
+  <data name="MInv_Zero" xml:space="preserve">
+    <value>Không</value>
+  </data>
+  <data name="mnuTem" xml:space="preserve">
+    <value>QL Mẫu HĐ</value>
+  </data>
+  <data name="mnuUser" xml:space="preserve">
+    <value>Quản trị người dùng</value>
+  </data>
+  <data name="mnu_AdjReInv" xml:space="preserve">
+    <value>Danh mục sửa đổi thay thế</value>
+  </data>
+  <data name="mnu_Category" xml:space="preserve">
+    <value>Danh mục</value>
+  </data>
+  <data name="mnu_CategoryInv" xml:space="preserve">
+    <value>Danh mục loại hóa đơn</value>
+  </data>
+  <data name="mnu_Cert" xml:space="preserve">
+    <value>Danh mục chứng thư</value>
+  </data>
+  <data name="mnu_ChangePass" xml:space="preserve">
+    <value>Đổi mật khẩu</value>
+  </data>
+  <data name="mnu_Com" xml:space="preserve">
+    <value>Thông tin đơn vị</value>
+  </data>
+  <data name="mnu_Convert" xml:space="preserve">
+    <value>Chuyển đổi HĐ</value>
+  </data>
+  <data name="mnu_ConvertToStore" xml:space="preserve">
+    <value>Chuyển đổi lưu trữ</value>
+  </data>
+  <data name="mnu_CreateRole" xml:space="preserve">
+    <value>Tạo Role</value>
+  </data>
+  <data name="mnu_Customer" xml:space="preserve">
+    <value>Danh mục khách hàng</value>
+  </data>
+  <data name="mnu_Decision" xml:space="preserve">
+    <value>Quyết định phát hành</value>
+  </data>
+  <data name="mnu_InvAdj" xml:space="preserve">
+    <value>Lập hóa đơn sửa đổi</value>
+  </data>
+  <data name="mnu_Keystore" xml:space="preserve">
+    <value>Cấu hình keystores</value>
+  </data>
+  <data name="mnu_ManageInv" xml:space="preserve">
+    <value>Quản lý hóa đơn</value>
+  </data>
+  <data name="mnu_Payment" xml:space="preserve">
+    <value>Thanh toán</value>
+  </data>
+  <data name="mnu_Payment1" xml:space="preserve">
+    <value>Đối soát TT</value>
+  </data>
+  <data name="mnu_ProcessInv" xml:space="preserve">
+    <value>Xử lý HĐ</value>
+  </data>
+  <data name="mnu_Product" xml:space="preserve">
+    <value>Danh mục sản phẩm</value>
+  </data>
+  <data name="mnu_Publish" xml:space="preserve">
+    <value>Thông báo phát hành</value>
+  </data>
+  <data name="mnu_PublishInv" xml:space="preserve">
+    <value>Phát hành hóa đơn tùy chọn</value>
+  </data>
+  <data name="mnu_PublishLaunchInv" xml:space="preserve">
+    <value>Phát hành hóa đơn theo lô</value>
+  </data>
+  <data name="mnu_ReCancel" xml:space="preserve">
+    <value>Hủy hóa đơn</value>
+  </data>
+  <data name="mnu_RegisterAndPubInv" xml:space="preserve">
+    <value>Đk phát hành</value>
+  </data>
+  <data name="mnu_ReInvCP" xml:space="preserve">
+    <value>Bảng kê tạo lập và phát hành hóa đơn</value>
+  </data>
+  <data name="mnu_ReInvDetail" xml:space="preserve">
+    <value>Bảng kê chi tiết hóa đơn</value>
+  </data>
+  <data name="mnu_ReplaceInv" xml:space="preserve">
+    <value>Lập hóa đơn thay thế</value>
+  </data>
+  <data name="mnu_Reports" xml:space="preserve">
+    <value>Thống kê</value>
+  </data>
+  <data name="mnu_ReSigCus" xml:space="preserve">
+    <value>Tình hình ký xác nhận hóa đơn của khách hàng</value>
+  </data>
+  <data name="mnu_ReUse" xml:space="preserve">
+    <value>Báo cáo tình hình sử dụng</value>
+  </data>
+  <data name="mnu_Role" xml:space="preserve">
+    <value>Quản lý Role</value>
+  </data>
+  <data name="mnu_Rtemp" xml:space="preserve">
+    <value>Danh mục đăng ký mẫu hóa đơn</value>
+  </data>
+  <data name="mnu_Src" xml:space="preserve">
+    <value>Chuyển đổi chứng minh nguồn gốc</value>
+  </data>
+  <data name="mnu_Staff" xml:space="preserve">
+    <value>Danh mục nhân viên</value>
+  </data>
+  <data name="mnu_System" xml:space="preserve">
+    <value>Hệ thống</value>
+  </data>
+  <data name="mnu_Tax" xml:space="preserve">
+    <value>Danh mục cơ quan thuế</value>
+  </data>
+  <data name="mnu_Temp" xml:space="preserve">
+    <value>Danh mục mẫu hóa đơn</value>
+  </data>
+  <data name="mnu_User" xml:space="preserve">
+    <value>Người dùng</value>
+  </data>
+  <data name="MPleaseWait" xml:space="preserve">
+    <value>Xin vui lòng đợi!</value>
+  </data>
+  <data name="MPleaseWait2" xml:space="preserve">
+    <value>Xin vui lòng đợi</value>
+  </data>
+  <data name="NameInv" xml:space="preserve">
+    <value>Loại hóa đơn</value>
+  </data>
+  <data name="Pattern" xml:space="preserve">
+    <value>Mẫu số</value>
+  </data>
+  <data name="Pay_LblChoose" xml:space="preserve">
+    <value>Chọn</value>
+  </data>
+  <data name="Pay_LblCusName" xml:space="preserve">
+    <value>Tên khách hàng</value>
+  </data>
+  <data name="Pay_LblDetail" xml:space="preserve">
+    <value>Chi tiết</value>
+  </data>
+  <data name="Pay_LblFromDate" xml:space="preserve">
+    <value>Từ ngày HD</value>
+  </data>
+  <data name="Pay_LblInvNo" xml:space="preserve">
+    <value>Số hóa đơn</value>
+  </data>
+  <data name="Pay_LblNo" xml:space="preserve">
+    <value>Stt</value>
+  </data>
+  <data name="Pay_LblPattern" xml:space="preserve">
+    <value>Mẫu số</value>
+  </data>
+  <data name="Pay_LblSerial" xml:space="preserve">
+    <value>Ký hiệu</value>
+  </data>
+  <data name="Pay_LblStatus" xml:space="preserve">
+    <value>?Thanh toán</value>
+  </data>
+  <data name="Pay_LblToDate" xml:space="preserve">
+    <value>Đến ngày HD</value>
+  </data>
+  <data name="Pay_ReqChooseInv" xml:space="preserve">
+    <value>Bạn cần chọn hóa đơn để thanh toán </value>
+  </data>
+  <data name="Pay_ReqToDateGreaterStartDate" xml:space="preserve">
+    <value>Ngày đến phải lớn hơn hoặc bằng ngày bắt đầu</value>
+  </data>
+  <data name="Pay_Title" xml:space="preserve">
+    <value>Danh mục thanh toán đối soát hóa đơn</value>
+  </data>
+  <data name="Pay_TxtNoPayStatus" xml:space="preserve">
+    <value>Hóa đơn chưa thanh toán</value>
+  </data>
+  <data name="Pay_TxtPayedStatus" xml:space="preserve">
+    <value>Hóa đơn đã thanh toán</value>
+  </data>
+  <data name="PLInv_ConfirmBatchPub" xml:space="preserve">
+    <value>Bạn có chắc chắn thực hiện phát hành lô hóa đơn không?</value>
+  </data>
+  <data name="PLInv_Guide" xml:space="preserve">
+    <value>Hướng dẫn</value>
+  </data>
+  <data name="PLInv_LblFromDate" xml:space="preserve">
+    <value>Từ ngày</value>
+  </data>
+  <data name="PLInv_LblPattern" xml:space="preserve">
+    <value>Mẫu số</value>
+  </data>
+  <data name="PLInv_LblSerial" xml:space="preserve">
+    <value>Ký hiệu</value>
+  </data>
+  <data name="PLInv_lblTitle" xml:space="preserve">
+    <value>Phát hành hóa đơn theo lô</value>
+  </data>
+  <data name="PLInv_LblToDate" xml:space="preserve">
+    <value>Đến ngày</value>
+  </data>
+  <data name="PLInv_NotePleaseWaitToPublish" xml:space="preserve">
+    <value>Chú ý : Bạn lưu ý quá trình phát hành với số lượng nhiều sẽ mất thời gian. Vì Vậy vui lòng chờ và không nên tắt máy khi đang thực hiện chương trình</value>
+  </data>
+  <data name="PLInv_ReqCompleteInfo" xml:space="preserve">
+    <value>Bạn cần nhập đầy đủ thông tin</value>
+  </data>
+  <data name="PLInv_ReqTDateGreatOrEqualFDate" xml:space="preserve">
+    <value>Ngày đến phải lớn hơn hoặc bằng ngày bắt đầu</value>
+  </data>
+  <data name="PLInv_ReqTDateGreatOrEqualFDate1" xml:space="preserve">
+    <value>Ngày đến phải lớn hơn hoắc bằng ngày bắt đầu</value>
+  </data>
+  <data name="Prod_LblCode" xml:space="preserve">
+    <value>Mã sản phẩm</value>
+  </data>
+  <data name="Prod_LblCost" xml:space="preserve">
+    <value>Giá sản phẩm</value>
+  </data>
+  <data name="Prod_LblCreateProduct" xml:space="preserve">
+    <value>TẠO THÔNG TIN SẢN PHẨM </value>
+  </data>
+  <data name="Prod_LblDescription" xml:space="preserve">
+    <value>Mô tả</value>
+  </data>
+  <data name="Prod_LblEditTitle" xml:space="preserve">
+    <value>SỬA THÔNG TIN SẢN PHẨM</value>
+  </data>
+  <data name="Prod_LblName" xml:space="preserve">
+    <value>Tên sản phẩm</value>
+  </data>
+  <data name="Prod_LblNo" xml:space="preserve">
+    <value>Số tt</value>
+  </data>
+  <data name="Prod_LblTitle" xml:space="preserve">
+    <value>Quản lý sản phẩm</value>
+  </data>
+  <data name="Prod_LblUnit" xml:space="preserve">
+    <value>Đơn vị tính</value>
+  </data>
+  <data name="Prod_MesConfirmDel" xml:space="preserve">
+    <value>Bạn có chắc chắn xóa sản phẩm này không?</value>
+  </data>
+  <data name="Prod_ReqCode" xml:space="preserve">
+    <value>Nhập mã sản phẩm</value>
+  </data>
+  <data name="Prod_ReqName" xml:space="preserve">
+    <value>Nhập tên sản phẩm</value>
+  </data>
+  <data name="Pub_FromDate" xml:space="preserve">
+    <value>Từ ngày</value>
+  </data>
+  <data name="Pub_lblBeginUsingDate" xml:space="preserve">
+    <value>Ngày bắt đầu sử dụng</value>
+  </data>
+  <data name="Pub_LblCity" xml:space="preserve">
+    <value>Thành phố</value>
+  </data>
+  <data name="Pub_LblComAddress" xml:space="preserve">
+    <value>Địa chỉ trụ sở chính</value>
+  </data>
+  <data name="Pub_LblComName" xml:space="preserve">
+    <value>Tên đơn vị phát hành</value>
+  </data>
+  <data name="Pub_LblCount" xml:space="preserve">
+    <value>Số lượng</value>
+  </data>
+  <data name="Pub_LblCreateDate" xml:space="preserve">
+    <value>Ngày lập thông báo</value>
+  </data>
+  <data name="Pub_LblCreateTitle" xml:space="preserve">
+    <value>Thông báo phát hành hóa đơn</value>
+  </data>
+  <data name="Pub_LblFromNo" xml:space="preserve">
+    <value>Từ số</value>
+  </data>
+  <data name="Pub_LblListInvType" xml:space="preserve">
+    <value>Các loại hóa đơn phát hành</value>
+  </data>
+  <data name="Pub_lblNo" xml:space="preserve">
+    <value>Stt</value>
+  </data>
+  <data name="Pub_LblPattern" xml:space="preserve">
+    <value> Mẫu số</value>
+  </data>
+  <data name="Pub_LblPhone" xml:space="preserve">
+    <value>Số điện thoại</value>
+  </data>
+  <data name="Pub_lblRepresentPerson" xml:space="preserve">
+    <value>Người đại diện</value>
+  </data>
+  <data name="Pub_LblSerial" xml:space="preserve">
+    <value>Ký hiệu</value>
+  </data>
+  <data name="Pub_LblStatus" xml:space="preserve">
+    <value>Trạng thái</value>
+  </data>
+  <data name="Pub_LblTaxCode" xml:space="preserve">
+    <value>Mã số thuế </value>
+  </data>
+  <data name="Pub_LblTaxName" xml:space="preserve">
+    <value>Cơ quan thuế chấp nhận thông báo</value>
+  </data>
+  <data name="Pub_LblTitle" xml:space="preserve">
+    <value>Thông báo phát hành</value>
+  </data>
+  <data name="Pub_lblToDate" xml:space="preserve">
+    <value>Đến ngày</value>
+  </data>
+  <data name="Pub_LblToNo" xml:space="preserve">
+    <value>Đến số</value>
+  </data>
+  <data name="Pub_RegPattern" xml:space="preserve">
+    <value>Đăng ký mẫu hóa đơn phát hành</value>
+  </data>
+  <data name="Pub_ReqChooseListInv" xml:space="preserve">
+    <value>Nơi lập thông báo</value>
+  </data>
+  <data name="Pub_ReqChoosePattern" xml:space="preserve">
+    <value>Mã số thuế của đơn vị</value>
+  </data>
+  <data name="Pub_ReqComAddress" xml:space="preserve">
+    <value>Nhập liệu</value>
+  </data>
+  <data name="Pub_ReqComName" xml:space="preserve">
+    <value>Phải chọn danh sách hóa đơn</value>
+  </data>
+  <data name="Pub_ReqFromNumLessToNum" xml:space="preserve">
+    <value>Số đầu phải nhỏ hơn số cuối xin vui lòng nhập lại</value>
+  </data>
+  <data name="Pub_ReqInput" xml:space="preserve">
+    <value>Chọn mẫu</value>
+  </data>
+  <data name="Pub_ReqPlaceCreatePub" xml:space="preserve">
+    <value>Trạng thái thông báo</value>
+  </data>
+  <data name="Pub_ReqPositiveNum" xml:space="preserve">
+    <value>Nhập giá trị lớn hơn 0</value>
+  </data>
+  <data name="Pub_ReqRegPattern" xml:space="preserve">
+    <value>Cần đăng ký mẫu hóa đơn</value>
+  </data>
+  <data name="Pub_ReqSelectBeginDate" xml:space="preserve">
+    <value>Bạn chưa chọn ngày bắt đầu sử dụng hóa đơn</value>
+  </data>
+  <data name="Pub_txtAcceptedPub" xml:space="preserve">
+    <value>Thông báo được chấp nhận</value>
+  </data>
+  <data name="Pub_TxtNewPub" xml:space="preserve">
+    <value>Thông báo vừa lập</value>
+  </data>
+  <data name="Pub_TxtSendedPub" xml:space="preserve">
+    <value>Thông báo vừa gửi</value>
+  </data>
+  <data name="ReCancel_Days" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="ReCancel_Hour" xml:space="preserve">
+    <value>Giờ</value>
+  </data>
+  <data name="ReCancel_lblAddress" xml:space="preserve">
+    <value>Địa chỉ</value>
+  </data>
+  <data name="ReCancel_LblAddress1" xml:space="preserve">
+    <value>Địa chỉ</value>
+  </data>
+  <data name="ReCancel_LblAmount" xml:space="preserve">
+    <value>Số lượng</value>
+  </data>
+  <data name="ReCancel_lblCancelDate" xml:space="preserve">
+    <value>Ngày hủy</value>
+  </data>
+  <data name="ReCancel_LblCancelTime" xml:space="preserve">
+    <value>Thời gian hủy</value>
+  </data>
+  <data name="ReCancel_lblComName" xml:space="preserve">
+    <value>Tên tổ chức cá nhân</value>
+  </data>
+  <data name="ReCancel_LblDetail" xml:space="preserve">
+    <value>Chi tiết</value>
+  </data>
+  <data name="ReCancel_LblFromNo" xml:space="preserve">
+    <value>Từ số</value>
+  </data>
+  <data name="ReCancel_LblInvType" xml:space="preserve">
+    <value>Loại hóa đơn</value>
+  </data>
+  <data name="ReCancel_LblMethodCancel" xml:space="preserve">
+    <value>Phương pháp hủy</value>
+  </data>
+  <data name="ReCancel_LblNo" xml:space="preserve">
+    <value>Stt</value>
+  </data>
+  <data name="ReCancel_LblPattern" xml:space="preserve">
+    <value>Mẫu số</value>
+  </data>
+  <data name="ReCancel_LblPreparedPerson" xml:space="preserve">
+    <value>Người lập biểu</value>
+  </data>
+  <data name="ReCancel_LblRepresentPerson" xml:space="preserve">
+    <value>Người đại diện theo pháp luật</value>
+  </data>
+  <data name="ReCancel_LblSerial" xml:space="preserve">
+    <value>Ký hiệu</value>
+  </data>
+  <data name="ReCancel_lblTaxCode" xml:space="preserve">
+    <value>Mã số thuế</value>
+  </data>
+  <data name="ReCancel_LblTaxCode1" xml:space="preserve">
+    <value>MST</value>
+  </data>
+  <data name="ReCancel_LblTitle" xml:space="preserve">
+    <value>Quản lý hủy hóa đơn</value>
+  </data>
+  <data name="ReCancel_LblToNo" xml:space="preserve">
+    <value>Đến số</value>
+  </data>
+  <data name="ReCancel_Minute" xml:space="preserve">
+    <value>Phút </value>
+  </data>
+  <data name="ReCancel_Months" xml:space="preserve">
+    <value>Tháng</value>
+  </data>
+  <data name="ReCancel_NotePatternReport" xml:space="preserve">
+    <value>Mẫu: TB 03/AC (Ban hành kèm theo Thông tư số 153/2010/TT-BTC ngày 28/9/2010 của Bộ Tài chính)</value>
+  </data>
+  <data name="ReCancel_ReqCorrectFormat" xml:space="preserve">
+    <value>Nhập đúng định dạng</value>
+  </data>
+  <data name="ReCancel_ReqFDateGreatOEqToDate" xml:space="preserve">
+    <value>Ngày đến phải lớn hơn hoặc bằng ngày bắt đầu</value>
+  </data>
+  <data name="ReCancel_ReqListCancelInv" xml:space="preserve">
+    <value>Phải nhập danh sách hóa đơn hủy</value>
+  </data>
+  <data name="ReCancel_ReqSelectPattern" xml:space="preserve">
+    <value>Chọn mẫu hóa đơn</value>
+  </data>
+  <data name="ReCancel_ReqTypeInv" xml:space="preserve">
+    <value>Chọn loại hóa đơn</value>
+  </data>
+  <data name="ReCancel_ToDate" xml:space="preserve">
+    <value>Đến ngày</value>
+  </data>
+  <data name="ReCancel_Years" xml:space="preserve">
+    <value>Năm</value>
+  </data>
+  <data name="ReInvCP_LblCreateBy" xml:space="preserve">
+    <value>Người tạo</value>
+  </data>
+  <data name="ReInvCP_LblInvNo" xml:space="preserve">
+    <value>Số hóa đơn</value>
+  </data>
+  <data name="ReInvCP_lblNo" xml:space="preserve">
+    <value>STT</value>
+  </data>
+  <data name="ReInvCP_lblReportAndLaunchInv" xml:space="preserve">
+    <value>Bảng kê tạo lập và phát hành hóa đơn</value>
+  </data>
+  <data name="ReInvCP_LblPattern" xml:space="preserve">
+    <value>Mẫu số</value>
+  </data>
+  <data name="ReInvCP_LblPublishBy" xml:space="preserve">
+    <value>Người phát hành</value>
+  </data>
+  <data name="ReInvCP_LblPublishDate" xml:space="preserve">
+    <value>Thời gian phát hành</value>
+  </data>
+  <data name="ReInvCP_lblSerial" xml:space="preserve">
+    <value>Ký hiệu</value>
+  </data>
+  <data name="ReInvCP_ReqCompletePeriodRe" xml:space="preserve">
+    <value>Xin vui lòng nhập đầy đủ thông tin khoảng thời gian báo cáo</value>
+  </data>
+  <data name="ReInvDetail_FromDate" xml:space="preserve">
+    <value>Từ ngày HĐ</value>
+  </data>
+  <data name="ReInvDetail_LblCusName" xml:space="preserve">
+    <value>Tên khách hàng</value>
+  </data>
+  <data name="ReInvDetail_LblPublishDate" xml:space="preserve">
+    <value>Ngày xuất</value>
+  </data>
+  <data name="ReInvDetail_lblSerial" xml:space="preserve">
+    <value>Ký hiệu</value>
+  </data>
+  <data name="ReInvDetail_LblStatus" xml:space="preserve">
+    <value>?Phát hành</value>
+  </data>
+  <data name="ReInvDetail_LblTotalPage" xml:space="preserve">
+    <value>Tổng số trang in</value>
+  </data>
+  <data name="ReInvDetail_Pattern" xml:space="preserve">
+    <value>Mẫu số</value>
+  </data>
+  <data name="ReInvDetail_ReqChooseSerial" xml:space="preserve">
+    <value>Chọn ký hiệu mẫu</value>
+  </data>
+  <data name="ReInvDetail_ReqCompletePeriodRe" xml:space="preserve">
+    <value>Xin vui lòng nhập đầy đủ thông tin khoảng thời gian báo cáo</value>
+  </data>
+  <data name="ReInvDetail_ReqFromDate" xml:space="preserve">
+    <value>Ngày đến phải lớn hơn hoặc bằng ngày bắt đầu</value>
+  </data>
+  <data name="ReInvDetail_Title" xml:space="preserve">
+    <value>THỐNG KÊ CHI TIẾT HÓA ĐƠN</value>
+  </data>
+  <data name="ReInvDetail_ToDate" xml:space="preserve">
+    <value>Đến ngày HĐ</value>
+  </data>
+  <data name="ReInvDetail_TotalPrintPage" xml:space="preserve">
+    <value>Tổng số trang in</value>
+  </data>
+  <data name="ReInvDetail_TxtChooseStatusInv" xml:space="preserve">
+    <value>Chọn tình trạng hóa đơn</value>
+  </data>
+  <data name="ReInvDetail_TxtChooseUsedInv" xml:space="preserve">
+    <value>Hóa đơn sử dụng</value>
+  </data>
+  <data name="ReInvDetail_TxtDelete" xml:space="preserve">
+    <value>Hóa đơn xóa </value>
+  </data>
+  <data name="ReInvDetail_TxtSelectAll" xml:space="preserve">
+    <value>Chọn tất cả</value>
+  </data>
+  <data name="ReplaceInv_BtnReplace" xml:space="preserve">
+    <value>Thay thế hóa đơn</value>
+  </data>
+  <data name="ReplaceInv_LblInvNo" xml:space="preserve">
+    <value>Số hóa đơn</value>
+  </data>
+  <data name="ReplaceInv_LblPattern" xml:space="preserve">
+    <value>Mẫu số</value>
+  </data>
+  <data name="ReplaceInv_LblSeachReInv" xml:space="preserve">
+    <value>TÌM KIẾM HÓA ĐƠN CẦN THAY THẾ</value>
+  </data>
+  <data name="ReplaceInv_LblSerial" xml:space="preserve">
+    <value>Ký hiệu</value>
+  </data>
+  <data name="ReplaceInv_ReqCorrectReInvNo" xml:space="preserve">
+    <value>Nhập đúng số hóa đơn cần thay thế</value>
+  </data>
+  <data name="ReplaceInv_ReqInvNo" xml:space="preserve">
+    <value>Chọn số hóa đơn</value>
+  </data>
+  <data name="ReplaceInv_ReqPattern" xml:space="preserve">
+    <value>Chọn mẫu số</value>
+  </data>
+  <data name="ReplaceInv_ReqSerial" xml:space="preserve">
+    <value>Chọn ký hiệu</value>
+  </data>
+  <data name="ReSigCus_FromDate" xml:space="preserve">
+    <value>Từ ngày HD</value>
+  </data>
+  <data name="ReSigCus_LblCusName" xml:space="preserve">
+    <value>Tên khách hàng</value>
+  </data>
+  <data name="ReSigCus_LblCusStatus" xml:space="preserve">
+    <value>Trạng thái khách hàng</value>
+  </data>
+  <data name="ReSigCus_LblDetail" xml:space="preserve">
+    <value>Chi tiết</value>
+  </data>
+  <data name="ReSigCus_LblInvNo" xml:space="preserve">
+    <value>Số hóa đơn</value>
+  </data>
+  <data name="ReSigCus_LblPattern" xml:space="preserve">
+    <value>Mẫu số </value>
+  </data>
+  <data name="ReSigCus_LblPubDate" xml:space="preserve">
+    <value>Ngày xuất</value>
+  </data>
+  <data name="ReSigCus_LblSerial" xml:space="preserve">
+    <value>Ký hiệu</value>
+  </data>
+  <data name="ReSigCus_LblSignStatus" xml:space="preserve">
+    <value>Trạng thái ký của khách hàng</value>
+  </data>
+  <data name="ReSigCus_ReqSerial" xml:space="preserve">
+    <value>Chọn ký hiệu</value>
+  </data>
+  <data name="ReSigCus_Title" xml:space="preserve">
+    <value>Tình trạng ký xác nhận hóa đơn của khách hàng</value>
+  </data>
+  <data name="ReSigCus_ToDate" xml:space="preserve">
+    <value>Đến ngày HD</value>
+  </data>
+  <data name="ReSigCus_TxtNoSign" xml:space="preserve">
+    <value>Trạng thái chưa ký</value>
+  </data>
+  <data name="ReSigCus_TxtSigned" xml:space="preserve">
+    <value>Trạng thái đã ký</value>
+  </data>
+  <data name="ReUse_Address" xml:space="preserve">
+    <value>Địa chỉ</value>
+  </data>
+  <data name="ReUse_LblInvTypeName" xml:space="preserve">
+    <value>Tên loại hóa đơn</value>
+  </data>
+  <data name="ReUse_LblPattern" xml:space="preserve">
+    <value>Ký hiệu mẫu hóa đơn</value>
+  </data>
+  <data name="ReUse_LblQuarter" xml:space="preserve">
+    <value>Quý</value>
+  </data>
+  <data name="ReUse_LblSelect" xml:space="preserve">
+    <value>Select...</value>
+  </data>
+  <data name="ReUse_LblSerial" xml:space="preserve">
+    <value>Mẫu số</value>
+  </data>
+  <data name="ReUse_ReportPattern" xml:space="preserve">
+    <value>Mẫu số :  BC26/AC ( Ban hành kém theo Thông tư số 153/2010/TT-BTC ngày 28/09/2010 của Bộ Tài chính</value>
+  </data>
+  <data name="ReUse_ReqQuarter" xml:space="preserve">
+    <value>Chọn quý</value>
+  </data>
+  <data name="ReUse_ReqReportingPeriod" xml:space="preserve">
+    <value>Chọn kỳ lập báo cáo</value>
+  </data>
+  <data name="ReUse_ReqYear" xml:space="preserve">
+    <value>Chọn năm</value>
+  </data>
+  <data name="ReUse_TaxCode" xml:space="preserve">
+    <value>Mã số thuế</value>
+  </data>
+  <data name="ReUse_Title" xml:space="preserve">
+    <value>Báo cáo tình trạng sử dụng hóa đơn</value>
+  </data>
+  <data name="ReUse_UnitNo" xml:space="preserve">
+    <value>Đơn vị tính: số</value>
+  </data>
+  <data name="ReUse_Year" xml:space="preserve">
+    <value>Năm</value>
+  </data>
+  <data name="Role_LblCreateTitle" xml:space="preserve">
+    <value>Tạo Role</value>
+  </data>
+  <data name="Role_LblEditTitle" xml:space="preserve">
+    <value>Sửa Role</value>
+  </data>
+  <data name="Role_LblNameRole" xml:space="preserve">
+    <value>Tên Role</value>
+  </data>
+  <data name="Role_LblSelectAll" xml:space="preserve">
+    <value>Chọn hết</value>
+  </data>
+  <data name="Role_LblSelectPermission" xml:space="preserve">
+    <value>Chọn các Permission cho Role</value>
+  </data>
+  <data name="Role_LblTitle" xml:space="preserve">
+    <value>Danh mục Role</value>
+  </data>
+  <data name="RTemp_CompanyInfo" xml:space="preserve">
+    <value>Thông tin đơn vị</value>
+  </data>
+  <data name="Rtemp_InvType" xml:space="preserve">
+    <value>Loại hóa đơn</value>
+  </data>
+  <data name="RTemp_LblRegPattern" xml:space="preserve">
+    <value>Mẫu đăng ký</value>
+  </data>
+  <data name="RTemp_LblTitle" xml:space="preserve">
+    <value>Danh mục hóa đơn đăng ký</value>
+  </data>
+  <data name="RTemp_Pattern" xml:space="preserve">
+    <value>Mẫu số</value>
+  </data>
+  <data name="RTemp_PatternInvInfo" xml:space="preserve">
+    <value>Thông tin mẫu hóa đơn</value>
+  </data>
+  <data name="RTemp_ReqCategory" xml:space="preserve">
+    <value>Chọn Category</value>
+  </data>
+  <data name="RTemp_ReqNumberType" xml:space="preserve">
+    <value>PatternOrder phải là số</value>
+  </data>
+  <data name="RTemp_ReqPattern" xml:space="preserve">
+    <value>Chọn mẫu hóa đơn</value>
+  </data>
+  <data name="RTemp_ReqPatternOrder" xml:space="preserve">
+    <value>Nhập PatternOrder</value>
+  </data>
+  <data name="Rtemp_ReqPositiveInt" xml:space="preserve">
+    <value>PatternOrder phải nguyên dương</value>
+  </data>
+  <data name="RTemp_ReqRegisterName" xml:space="preserve">
+    <value>Nhập Tên</value>
+  </data>
+  <data name="Staff_CreateTitle" xml:space="preserve">
+    <value>NHẬP THÔNG TIN CÁ NHÂN</value>
+  </data>
+  <data name="Staff_EditTitle" xml:space="preserve">
+    <value>SỬA THÔNG TIN CÁ NHÂN</value>
+  </data>
+  <data name="Staff_LblAccountName" xml:space="preserve">
+    <value>Tên tài khoản</value>
+  </data>
+  <data name="Staff_LblAddress" xml:space="preserve">
+    <value>Địa chỉ nhân viên</value>
+  </data>
+  <data name="Staff_LblCreateAccount" xml:space="preserve">
+    <value>Tạo tài khoản mới người dùng</value>
+  </data>
+  <data name="Staff_LblDescription" xml:space="preserve">
+    <value>Mô tả</value>
+  </data>
+  <data name="Staff_LblDivision" xml:space="preserve">
+    <value>Phòng ban</value>
+  </data>
+  <data name="Staff_LblEmail" xml:space="preserve">
+    <value>Mail</value>
+  </data>
+  <data name="Staff_LblFax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="Staff_LblInfomation" xml:space="preserve">
+    <value>Thông tin về nhân viên</value>
+  </data>
+  <data name="Staff_LblName" xml:space="preserve">
+    <value>Tên nhân viên</value>
+  </data>
+  <data name="Staff_LblPhone" xml:space="preserve">
+    <value>Số điện thoại</value>
+  </data>
+  <data name="Staff_LblTitle" xml:space="preserve">
+    <value>Quản lý nhân viên</value>
+  </data>
+  <data name="Staff_ReqAccount" xml:space="preserve">
+    <value>Nhập tài khoản</value>
+  </data>
+  <data name="Staff_ReqAddress" xml:space="preserve">
+    <value>Nhập địa chỉ</value>
+  </data>
+  <data name="Staff_ReqCorrectEmail" xml:space="preserve">
+    <value>Nhập đúng định dạng mail</value>
+  </data>
+  <data name="Staff_ReqName" xml:space="preserve">
+    <value>Nhập tên nhân viên</value>
+  </data>
+  <data name="Tax_CreateTitle" xml:space="preserve">
+    <value>Tạo cơ quan thuế</value>
+  </data>
+  <data name="Tax_LblAddress" xml:space="preserve">
+    <value>Địa chỉ</value>
+  </data>
+  <data name="Tax_LblCategory" xml:space="preserve">
+    <value>Danh mục cơ quan thuế</value>
+  </data>
+  <data name="Tax_LblCode" xml:space="preserve">
+    <value>Mã số</value>
+  </data>
+  <data name="Tax_LblEditTitle" xml:space="preserve">
+    <value>Sửa cơ quan thuế</value>
+  </data>
+  <data name="Tax_LblName" xml:space="preserve">
+    <value>Tên cơ quan thuế</value>
+  </data>
+  <data name="Tax_LblPhone" xml:space="preserve">
+    <value>Số điện thoại</value>
+  </data>
+  <data name="Tax_ReqAddress" xml:space="preserve">
+    <value>Nhập địa chỉ cục thuế</value>
+  </data>
+  <data name="Tax_ReqCode" xml:space="preserve">
+    <value>Nhập mã số cục thuế</value>
+  </data>
+  <data name="Tax_ReqName" xml:space="preserve">
+    <value>Nhập tên cục thuế</value>
+  </data>
+  <data name="Tax_ReqPhone" xml:space="preserve">
+    <value>Nhập số điện thoại</value>
+  </data>
+  <data name="Temp_CreateTitle" xml:space="preserve">
+    <value>Tạo mẫu hóa đơn</value>
+  </data>
+  <data name="Temp_EditTitle" xml:space="preserve">
+    <value>Sửa mẫu hóa đơn</value>
+  </data>
+  <data name="Temp_LblInfomation" xml:space="preserve">
+    <value>Thông tin mẫu</value>
+  </data>
+  <data name="Temp_LblNotes" xml:space="preserve">
+    <value>Ghi chú</value>
+  </data>
+  <data name="Temp_LblSchemaFile" xml:space="preserve">
+    <value>File Schema</value>
+  </data>
+  <data name="Temp_LblTitle" xml:space="preserve">
+    <value>Danh mục mẫu hóa đơn</value>
+  </data>
+  <data name="Temp_LblXMLFile" xml:space="preserve">
+    <value>File xml</value>
+  </data>
+  <data name="Temp_LblXSLTFile" xml:space="preserve">
+    <value>File xslt</value>
+  </data>
+  <data name="Temp_ReqChooseXml" xml:space="preserve">
+    <value>Chọn file xml</value>
+  </data>
+  <data name="Temp_ReqChooseXsd" xml:space="preserve">
+    <value>Chọn file xsd</value>
+  </data>
+  <data name="Temp_ReqChooseXslt" xml:space="preserve">
+    <value>Chọn file xslt</value>
+  </data>
+  <data name="Temp_ReqName" xml:space="preserve">
+    <value>Nhập tên mẫu</value>
+  </data>
+  <data name="User_LblActive" xml:space="preserve">
+    <value>Kích hoạt</value>
+  </data>
+  <data name="User_LblLock" xml:space="preserve">
+    <value>Khóa</value>
+  </data>
+  <data name="User_LblAccountName" xml:space="preserve">
+    <value>Tên tài khoản</value>
+  </data>
+  <data name="User_LblChangePass" xml:space="preserve">
+    <value>Đổi mật khẩu</value>
+  </data>
+  <data name="User_LblCreateDate" xml:space="preserve">
+    <value>Ngày tạo tài khoản</value>
+  </data>
+  <data name="User_LblEmail" xml:space="preserve">
+    <value>Mail</value>
+  </data>
+  <data name="User_LblHome" xml:space="preserve">
+    <value>Home page</value>
+  </data>
+  <data name="User_LblIsApproved" xml:space="preserve">
+    <value>Trạng thái kích hoạt</value>
+  </data>
+  <data name="User_LblIsLocked" xml:space="preserve">
+    <value>Trạng thái khóa</value>
+  </data>
+  <data name="User_LblOldPass" xml:space="preserve">
+    <value>Mật khẩu cũ</value>
+  </data>
+  <data name="User_LblOldPassword" xml:space="preserve">
+    <value>Mật khẩu cũ</value>
+  </data>
+  <data name="User_LblPassWord" xml:space="preserve">
+    <value>Mật khẩu</value>
+  </data>
+  <data name="User_LblRegister" xml:space="preserve">
+    <value>Đăng ký</value>
+  </data>
+  <data name="User_lblRetypeNewPass" xml:space="preserve">
+    <value>Nhập lại mật khẩu mới</value>
+  </data>
+  <data name="User_lblRetypePass" xml:space="preserve">
+    <value>Nhập lại mật khẩu </value>
+  </data>
+  <data name="User_LblSavePasss" xml:space="preserve">
+    <value>Lưu mật khẩu</value>
+  </data>
+  <data name="User_lblTitle" xml:space="preserve">
+    <value>Danh mục tài khoản</value>
+  </data>
+  <data name="User_MesInvalidEmail" xml:space="preserve">
+    <value>Nhập đúng định dạng mail.</value>
+  </data>
+  <data name="User_NewPass" xml:space="preserve">
+    <value>Mật khẩu mới</value>
+  </data>
+  <data name="User_ReqAccountName" xml:space="preserve">
+    <value>Nhập tên tài khoản</value>
+  </data>
+  <data name="User_ReqNewPass" xml:space="preserve">
+    <value>Hãy nhập mật khẩu mới</value>
+  </data>
+  <data name="User_ReqNewPass1" xml:space="preserve">
+    <value>Hãy nhập mật khẩu mới</value>
+  </data>
+  <data name="User_ReqPassWord" xml:space="preserve">
+    <value>Nhập mật khẩu</value>
+  </data>
+  <data name="User_ReqRetypeNewPass" xml:space="preserve">
+    <value>Hãy nhập mật khẩu mới</value>
+  </data>
+  <data name="User_ReqRetypeNewPass1" xml:space="preserve">
+    <value>Hãy nhập mật khẩu mới</value>
+  </data>
+  <data name="User_ReqRetypePass" xml:space="preserve">
+    <value>Yêu cầu nhập mật khẩu</value>
+  </data>
+  <data name="User_ReqSamePass" xml:space="preserve">
+    <value>Không trùng với mật khẩu cũ</value>
+  </data>
+  <data name="User_RetypeNewPass" xml:space="preserve">
+    <value>Nhập lại mật khẩu mới</value>
+  </data>
+  <data name="Key_HSM" xml:space="preserve">
+    <value>HSM</value>
+  </data>
+  <data name="Key_JKSKeyStore" xml:space="preserve">
+    <value>JKSKeyStore</value>
+  </data>
+  <data name="Key_LblEditKeystoreInfomation" xml:space="preserve">
+    <value>CHỈNH SỬA THÔNG TIN CHỨNG THƯ</value>
+  </data>
+  <data name="Key_LblKeyStorePostion" xml:space="preserve">
+    <value>KeyStore tại</value>
+  </data>
+  <data name="Key_P12KeyStore" xml:space="preserve">
+    <value>P12 KeyStore</value>
+  </data>
+  <data name="Key_PKIToken" xml:space="preserve">
+    <value>PKI Token</value>
+  </data>
+  <data name="Key_Token" xml:space="preserve">
+    <value>Token</value>
+  </data>
+  <data name="Key_DescriptionKeyStore" xml:space="preserve">
+    <value>Mô tả</value>
+  </data>
+  <data name="BtnReset" xml:space="preserve">
+    <value>Làm lại</value>
+  </data>
+  <data name="BtnSignIn" xml:space="preserve">
+    <value>Đăng nhập</value>
+  </data>
+  <data name="LblStt" xml:space="preserve">
+    <value>STT</value>
+  </data>
+  <data name="User_LblConfirmDelete" xml:space="preserve">
+    <value>Bạn có chắc chắn xóa tài khoản này không</value>
+  </data>
+  <data name="User_LblConfirmResetForm" xml:space="preserve">
+    <value>Bạn có muốn nhập lại không</value>
+  </data>
+  <data name="User_LblTitleLogon" xml:space="preserve">
+    <value />
+  </data>
+  <data name="User_LblChangePassSuccess" xml:space="preserve">
+    <value>Bạn đã thay đổi mật khẩu thành công.</value>
+  </data>
+  <data name="User_LblTitleEdit" xml:space="preserve">
+    <value>Thông tin về tài khoản.</value>
+  </data>
+  <data name="Com_ReqEmail" xml:space="preserve">
+    <value>Nhập đúng định dạng email!</value>
+  </data>
+  <data name="Cus_LblAccountName" xml:space="preserve">
+    <value>Tên tài khoản</value>
+  </data>
+  <data name="Cus_lblCreateAcountName" xml:space="preserve">
+    <value>Tạo mới tài khoản</value>
+  </data>
+  <data name="Cus_lblFax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="Staff_lblAccountInSystem" xml:space="preserve">
+    <value>Tài khoản  trong hệ thống</value>
+  </data>
+  <data name="Dec_InvCateName" xml:space="preserve">
+    <value>Loại hóa đơn</value>
+  </data>
+  <data name="Dec_Pattern" xml:space="preserve">
+    <value>Mẫu số</value>
+  </data>
+  <data name="Dec_Workflow" xml:space="preserve">
+    <value>Quy trình tạo, lập, lưu trữ, phát hành HĐĐT</value>
+  </data>
+  <data name="Inv_LblNo" xml:space="preserve">
+    <value>Số (No)</value>
+  </data>
+  <data name="AdjReInv_LblComExportName" xml:space="preserve">
+    <value>TÊN ĐƠN VỊ XUẤT KHẨU</value>
+  </data>
+  <data name="AdjReInv_LblComImportName" xml:space="preserve">
+    <value>TÊN ĐƠN VỊ NHẬP KHẨU</value>
+  </data>
+  <data name="AdjReInv_LblContractDate" xml:space="preserve">
+    <value>Ngày hợp đồng</value>
+  </data>
+  <data name="Inv_LblContractNo" xml:space="preserve">
+    <value>Hợp đồng số</value>
+  </data>
+  <data name="RTemp_EditTemplate" xml:space="preserve">
+    <value>SỬA MẪU HÓA ĐƠN</value>
+  </data>
+  <data name="RTemp_lblComName" xml:space="preserve">
+    <value>Tên đơn vị</value>
+  </data>
+  <data name="RTemp_lblComTaxCode" xml:space="preserve">
+    <value>Mã số thuế</value>
+  </data>
+  <data name="RTemp_NameOfType" xml:space="preserve">
+    <value>Tên loại</value>
+  </data>
+  <data name="RTemp_RegisterPatternInvoice" xml:space="preserve">
+    <value>ĐĂNG KÝ MẪU HÓA ĐƠN</value>
+  </data>
+  <data name="RTem_lblAddressCom" xml:space="preserve">
+    <value>Địa chỉ</value>
+  </data>
+  <data name="RTem_lblInvPattern" xml:space="preserve">
+    <value>Ký hiệu mẫu số</value>
+  </data>
+  <data name="RTem_lblNameInvoice" xml:space="preserve">
+    <value>Tên mặc định hóa đơn</value>
+  </data>
+  <data name="RTem_lblNameTemplate" xml:space="preserve">
+    <value>Tên mẫu</value>
+  </data>
+  <data name="RTem_lblPatternInvoice" xml:space="preserve">
+    <value>Mẫu hóa đơn</value>
+  </data>
+  <data name="Temp_CategoryTemplateInvoice" xml:space="preserve">
+    <value>Danh mục mẫu hóa đơn</value>
+  </data>
+  <data name="Temp_DetailTempInvoice" xml:space="preserve">
+    <value>CHI TIẾT MẪU HÓA ĐƠN</value>
+  </data>
+  <data name="Temp_InvCateName" xml:space="preserve">
+    <value>Tên loại hóa đơn</value>
+  </data>
+  <data name="Temp_ReqNameInv" xml:space="preserve">
+    <value>Chọn loại hóa đơn!</value>
+  </data>
+  <data name="Temp_tempName" xml:space="preserve">
+    <value>Tên Mẫu hóa đơn</value>
+  </data>
+  <data name="Cat_Pattern" xml:space="preserve">
+    <value>Mẫu số</value>
+  </data>
+  <data name="Cert_LblTitle" xml:space="preserve">
+    <value>QUẢN LÝ CHỨNG THƯ</value>
+  </data>
+  <data name="MInv_LblCategoryInvoice" xml:space="preserve">
+    <value>Danh mục hóa đơn</value>
+  </data>
+  <data name="MInv_TextCreateStatus" xml:space="preserve">
+    <value>Hóa đơn vừa khởi tạo</value>
+  </data>
+  <data name="MInv_TextPubInvAdjust" xml:space="preserve">
+    <value>Hóa đơn sai sót bị điều chỉnh</value>
+  </data>
+  <data name="MInv_TextPubInvReplate" xml:space="preserve">
+    <value>Hóa đơn sai sót bị thay thế</value>
+  </data>
+  <data name="MInv_TextPubInvStatus" xml:space="preserve">
+    <value>Hóa đơn có đủ chữ ký</value>
+  </data>
+  <data name="MInv_TextPubInvTaxStatus" xml:space="preserve">
+    <value>Hóa đơn đã khai báo thuế</value>
+  </data>
+  <data name="Pay_lblPubDate" xml:space="preserve">
+    <value>Ngày xuất</value>
+  </data>
+  <data name="MInv_lblAmount" xml:space="preserve">
+    <value>Thành tiền (Amount)VND</value>
+  </data>
+  <data name="MInv_lblCheckTaxCode" xml:space="preserve">
+    <value>Kiểm tra MST</value>
+  </data>
+  <data name="MInv_lblCode" xml:space="preserve">
+    <value>Mã số</value>
+  </data>
+  <data name="MInv_lblInputDetailInfomationInvoice" xml:space="preserve">
+    <value>NHẬP THÔNG TIN CHI TIẾT VỀ HÓA ĐƠN</value>
+  </data>
+  <data name="MInv_lblKindOfService" xml:space="preserve">
+    <value>Dịch vụ sử dụng (Kind of service)</value>
+  </data>
+  <data name="MInv_lblListCommodity" xml:space="preserve">
+    <value>Danh sách hàng hóa</value>
+  </data>
+  <data name="MInv_lblNo" xml:space="preserve">
+    <value>Số (No)</value>
+  </data>
+  <data name="MInv_lblNumber" xml:space="preserve">
+    <value>STT(No)</value>
+  </data>
+  <data name="MInv_lblPrince" xml:space="preserve">
+    <value>Đơn giá (Price)</value>
+  </data>
+  <data name="MInv_lblTotalService" xml:space="preserve">
+    <value>Cộng tiền dịch vụ (Total)</value>
+  </data>
+  <data name="MInv_lblUnits" xml:space="preserve">
+    <value>Đơn vị tính (Unit)</value>
+  </data>
+  <data name="MInv_Minv_txtCashingPayAndTransferPay" xml:space="preserve">
+    <value>Hình thức thanh toán tiền mặt hoặc chuyển khoản</value>
+  </data>
+  <data name="InvAdj_BtnInvAdj" xml:space="preserve">
+    <value>Điều chỉnh hóa đơn</value>
+  </data>
+  <data name="ReCancel_lblFormDate" xml:space="preserve">
+    <value>Từ ngày</value>
+  </data>
+  <data name="ReCancel_LblNoticeCancel" xml:space="preserve">
+    <value>Thông báo hủy hóa đơn</value>
+  </data>
+  <data name="ReCancel_lblListInvCancel" xml:space="preserve">
+    <value>Danh sách hóa đơn hủy</value>
+  </data>
+  <data name="ReCancel_PublishDate" xml:space="preserve">
+    <value>Ngày lập biểu</value>
+  </data>
+  <data name="Btn_Print" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="ReCancel_ComNameAndNoticeCancel" xml:space="preserve">
+    <value>(tổ chức, cá nhân) thông báo hủy hóa đơn như sau</value>
+  </data>
+  <data name="ReCancel_lblNoticeResultsInv" xml:space="preserve">
+    <value>THÔNG BÁO KẾT QUẢ HỦY HÓA ĐƠN</value>
+  </data>
+  <data name="ReCancel_lblRepPerson" xml:space="preserve">
+    <value>NGƯỜI ĐẠI DIỆN THEO PHÁP LUẬT</value>
+  </data>
+  <data name="ReCancel_lblSignAndName" xml:space="preserve">
+    <value>Ký, ghi rõ họ tên</value>
+  </data>
+  <data name="ReCancel_lblSignAndStampAndName" xml:space="preserve">
+    <value>Ký, đóng dấu và ghi rõ họ tên</value>
+  </data>
+  <data name="ReCancel_Time" xml:space="preserve">
+    <value>Hồi</value>
+  </data>
+  <data name="ReUse_ReqQuarterFour" xml:space="preserve">
+    <value>Quý IV</value>
+  </data>
+  <data name="ReUse_ReqQuarterOne" xml:space="preserve">
+    <value>Quý I</value>
+  </data>
+  <data name="ReUse_ReqQuarterThree" xml:space="preserve">
+    <value>Quý III</value>
+  </data>
+  <data name="ReUse_ReqQuarterTwo" xml:space="preserve">
+    <value>Quý II</value>
+  </data>
+  <data name="Btn_ReInvCP" xml:space="preserve">
+    <value>Bảng kê</value>
+  </data>
+  <data name="ReInvDetail_lblNoInv" xml:space="preserve">
+    <value>Số hóa đơn</value>
+  </data>
+  <data name="ReUse_ComName" xml:space="preserve">
+    <value>Tên tổ chức (cá nhân)</value>
+  </data>
+  <data name="ReUse_LblPatternBC26" xml:space="preserve">
+    <value>Mẫu số: BC26/AC</value>
+  </data>
+  <data name="ReUse_LblReportCircular" xml:space="preserve">
+    <value>Ban hành kém theo Thông tư số 153/2010/TT-BTC ngày 28/09/2010 của Bộ Tài chính</value>
+  </data>
+  <data name="ReInvCP_LblCreateDate" xml:space="preserve">
+    <value>Ngày tạo</value>
+  </data>
+  <data name="ReInvCP_LblListCreateAndPubInv" xml:space="preserve">
+    <value>BẢNG KÊ TẠO LẬP VÀ PHÁT HÀNH HÓA ĐƠN</value>
+  </data>
+  <data name="Role_LblReqNameRole" xml:space="preserve">
+    <value>Nhập tên mô tả</value>
+  </data>
+  <data name="Pub_lblComNameCreateInv" xml:space="preserve">
+    <value>Tên tổ chức khởi tạo hóa đơn</value>
+  </data>
+  <data name="Cert_DetailInfomation" xml:space="preserve">
+    <value>Thông tin chi tiết chứng thư</value>
+  </data>
+  <data name="Cert_ValidFrom" xml:space="preserve">
+    <value>Từ ngày</value>
+  </data>
+  <data name="Dec_BtnAccept" xml:space="preserve">
+    <value>Chấp nhận quyết định</value>
+  </data>
+  <data name="Dec_BtnSend" xml:space="preserve">
+    <value>Gửi quyết định</value>
+  </data>
+  <data name="Key_LblCer" xml:space="preserve">
+    <value>Thông tin chứng thư</value>
+  </data>
+  <data name="Key_LblFromDate" xml:space="preserve">
+    <value>Ngày bắt đầu</value>
+  </data>
+  <data name="Key_LblOrganizationCA" xml:space="preserve">
+    <value>Tên đơn vị cấp chứng thư số</value>
+  </data>
+  <data name="Key_LblOwner" xml:space="preserve">
+    <value>Chủ sở hữu chứng thư</value>
+  </data>
+  <data name="Key_LblTitleInformation" xml:space="preserve">
+    <value>Thông tin chứng thư của đơn vị phát hành</value>
+  </data>
+  <data name="Key_LblToDate" xml:space="preserve">
+    <value>Ngày hết hạn</value>
+  </data>
+  <data name="LblLogout" xml:space="preserve">
+    <value>Đăng xuất</value>
+  </data>
+  <data name="Pub_BtnAccept" xml:space="preserve">
+    <value>Chấp nhận thông báo</value>
+  </data>
+  <data name="Pub_BtnSend" xml:space="preserve">
+    <value>Gửi thông báo</value>
+  </data>
+  <data name="mnu_ConfigCert" xml:space="preserve">
+    <value>Cấu hình chữ ký số</value>
+  </data>
+  <data name="mnu_ConvertInv" xml:space="preserve">
+    <value>Chuyển đổi hóa đơn</value>
+  </data>
+  <data name="mnu_CreateInv" xml:space="preserve">
+    <value>Lập HĐ</value>
+  </data>
+  <data name="mnu_CreateUser" xml:space="preserve">
+    <value>Tạo mới người dùng</value>
+  </data>
+  <data name="mnu_LaunchInv" xml:space="preserve">
+    <value>Phát hành HĐ</value>
+  </data>
+  <data name="MInv_LbLDiscountAmount" xml:space="preserve">
+    <value />
+  </data>
+  <data name="mnu_PaymentTransaction" xml:space="preserve">
+    <value>Thanh toán theo lô</value>
+  </data>
+</root>

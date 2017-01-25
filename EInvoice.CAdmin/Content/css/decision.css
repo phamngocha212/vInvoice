@@ -1,0 +1,58 @@
+ol
+{
+    margin-left:10px;
+}
+#decision-bottom .fl-r{
+	float:right;
+	width:33%;
+	
+	}
+#decision-bottom .fl-l{
+	float:left;
+	width:65%;
+	margin:0;
+	}
+#decision{
+	height: 900px;
+    width: 730px;
+	color:#333;
+	padding-right:10px;	
+	margin:10px auto;
+	font-size:14px;
+	font-family:"Times New Roman", Times, serif;
+	}
+#decision li{
+	margin-bottom:10px;
+	}
+	
+	.centert{
+	text-align:center;
+	}
+		
+#decision  h2, h3, h4, h5, h6 {
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1.2em; /* Big heading look nicer with smaller line-height */
+	margin: .7em 0 .5em;
+}
+
+#decision h2 {
+	font-size: 1.75em;
+}
+#decision h3 {
+	font-size: 1.5em;
+}
+#decision h4 {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+#decision h5 {
+	font-size: 1em;
+	font-weight: bold;
+}
+#decision h6 {
+	font-size: 1em;
+	font-style: italic;
+}
+	
+	
